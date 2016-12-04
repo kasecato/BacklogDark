@@ -13,18 +13,19 @@
   /*-------------------------------------------------------------
    * background-color
    *-----------------------------------------------------------*/
-  --dark-background-color: #222222;        /* background-color: #fff */
-  --dark-background-color-title: #444444;  /* background-color: #edf4f0 */
-  --dark-background-color-header: #333333; /* background-color: #f0f0f0 */
-  --dark-background-color-hover: #555555;  /* background-color: #e3eee8 */
-  --dark-background-color-button: #444444; /* background-color: #e5e5e5 */
-
+  --dark-background-color: #222222;          /* background-color: #fff */
+  --dark-background-color-title: #444444;    /* background-color: #edf4f0 */
+  --dark-background-color-header: #333333;   /* background-color: #f0f0f0 / #f6f6f6 */
+  --dark-background-color-hover: #555555;    /* background-color: #e3eee8 / #fcfade */
+  --dark-background-color-button: #333333;   /* background-color: #e5e5e5 */
+  --dark-background-color-dropdown: #222222; /* background-color: #fff */
+  
   /*-------------------------------------------------------------
-   * boader
+   * border
    *-----------------------------------------------------------*/
-  --dark-boader-color: #333333;        /* border: #bdbdbd */
-  --dark-boader-color-icon: #555555;   /* border: #adadad */
-  --dark-boader-color-button: #444444; /* border: #e5e5e5 */
+  --dark-border-color: #333333;        /* border: #bdbdbd */
+  --dark-border-color-icon: #555555;   /* border: #adadad */
+  --dark-border-color-button: #444444; /* border: #e5e5e5 */
   
 }
 
@@ -68,7 +69,6 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   color: #fff;
   border: 1px solid #106927;
-  //background: #106927 url(../../images/_newUI/vender/jquery-ui/ui-bg_flat_100_106927_40x100.png) 50% 50% repeat-x
 }
 
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
@@ -78,7 +78,6 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 .ui-state-focus, .ui-state-hover, .ui-widget-content .ui-state-focus, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-focus, .ui-widget-header .ui-state-hover {
   color: var(--dark-color) !important;
   border: 1px solid #106927;
-  //background: #106927 url(../../images/_newUI/vender/jquery-ui/ui-bg_flat_100_106927_40x100.png) 50% 50% repeat-x
 }
 
 .ui-state-hover a, .ui-state-hover a:hover {
@@ -88,7 +87,6 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
   color: #106927;
   border: 1px solid #ebf0df;
-  //background: #ebf0df url(../../images/_newUI/vender/jquery-ui/ui-bg_flat_100_ebf0df_40x100.png) 50% 50% repeat-x
 }
 
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
@@ -98,7 +96,6 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
   color: #363636;
   border: 1px solid #fc0;
-  //background: #ffc url(../../images/_newUI/vender/jquery-ui/ui-bg_glass_55_ffffcc_1x400.png) 50% 50% repeat-x
 }
 
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a {
@@ -119,7 +116,6 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .ui-widget-shadow {
-  //background: #aaa url(../../images/_newUI/vender/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
 }
 
 .ui-selectable-helper {
@@ -212,7 +208,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .button--primary.is_disabled, .button--primary[disabled] {
   color: #777;
-  border: solid 2px var(--dark-boader-color-button) !important;
+  border: solid 2px var(--dark-border-color-button) !important;
   background-color: var(--dark-background-color-button) !important
 }
 
@@ -247,7 +243,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .button--default {
   color: var(--dark-theme) !important;
-  border: solid 2px var(--dark-boader-color-icon) !important;
+  border: solid 2px var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important
 }
 
@@ -263,7 +259,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .button--default.is_disabled, .button--default[disabled] {
   color: #e5e5e5;
-  border-color: var(--dark-boader-color-button) !important;
+  border-color: var(--dark-border-color-button) !important;
   background-color: var(--dark-background-color) !important
 }
 
@@ -294,7 +290,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
   cursor: default;
   opacity: .4;
   color: #777;
-  border-color: var(--dark-boader-color-button) !important;
+  border-color: var(--dark-border-color-button) !important;
   outline: none;
   background-color: var(--dark-background-color-button) !important
 }
@@ -312,7 +308,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .button-group__item {
-  border: solid 1px var(--dark-boader-color-icon) !important
+  border: solid 1px var(--dark-border-color-icon) !important
 }
 
 .global-header .button-group__item {
@@ -346,12 +342,12 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .icon-button--default {
-  border: solid 1px var(--dark-boader-color-icon) !important;
+  border: solid 1px var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important
 }
 
 .Page--multipleIssue .icon-button--default, .Page--settings-project .icon-button--default, .Page--settings-space .icon-button--default, .Page--settings-user .icon-button--default, .card--default .icon-button--default, .card--default .loom .markdown-body code.loom_inner_code, .comment-editor .icon-button--default, .comment-item .icon-button--default, .content-header__inner .icon-button--default, .global-header .icon-button--default, .icon-button--default.-on-card-base, .modal__content .icon-button--default, .timeline .icon-button--default {
-  border-color: var(--dark-color) !important;
+  border-color: var(--dark-border-color-icon) !important;
   background-color: #f5f5f5
 }
 
@@ -373,7 +369,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .icon-button--default.is_disabled, .icon-button--default[disabled] {
-  border-color: var(--dark-boader-color-button) !important;
+  border-color: var(--dark-border-color-button) !important;
   background-color: #f3f3f3
 }
 
@@ -465,7 +461,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .data-table.-has-handle tr.ui-sortable-helper > td, .data-table.-has-handle tr.ui-sortable-helper > th {
   border-bottom: solid 1px var(--dark-color) !important;
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .data-table td {
@@ -494,11 +490,11 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .data-list:not(.-no-row-hover) .data-list__item.is_hover, .data-list:not(.-no-row-hover) .data-list__item:hover, .data-table--default:not(.-no-row-hover) tbody tr:hover > td, .data-table--default:not(.-no-row-hover) tbody tr:hover > th {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .data-table--default tbody tr.is_selected td {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .data-table--default.-no-top-border thead tr:first-child td, .data-table--default.-no-top-border thead tr:first-child th {
@@ -537,7 +533,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .data-controller-box {
   border: solid 1px #c2c2c2;
-  background-color: #f6f6f6
+  background-color: var(--dark-background-color-header) !important
 }
 
 .sort {
@@ -604,7 +600,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .input-password:focus, .input-text:focus, .textarea:focus {
   border-color: var(--dark-theme) !important;
-  background-color: #fcfade;
+  background-color: var(--dark-background-color-hover) !important;
   box-shadow: 0 0 3px var(--dark-theme) !important
 }
 
@@ -653,11 +649,11 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .input-radio[disabled]:checked + label::before {
-  border-color: var(--dark-boader-color-icon) !important
+  border-color: var(--dark-border-color-icon) !important
 }
 
 .input-radio[disabled]:checked + label::after {
-  background-color: var(--dark-boader-color-icon) !important
+  background-color: var(--dark-border-color-icon) !important
 }
 
 .input-radio.is_error + label {
@@ -697,7 +693,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .input-checkbox[disabled]:checked + label::before {
-  border-color: var(--dark-boader-color-icon) !important;
+  border-color: var(--dark-border-color-icon) !important;
   background-color: #eee
 }
 
@@ -848,7 +844,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .chosen-wrapper .chzn-container .chzn-drop {
   border: solid 1px var(--dark-color) !important;
-  background: #fff;
+  background: var(--dark-background-color-dropdown) !important;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .35)
 }
 
@@ -1038,13 +1034,13 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .loom table {
-  border-top: solid 1px var(--dark-color) !important !important;
-  border-left: solid 1px var(--dark-color) !important !important
+  border-top: solid 1px var(--dark-color) !important;
+  border-left: solid 1px var(--dark-color) !important
 }
 
 .loom table td, .loom table th {
-  border-right: solid 1px var(--dark-color) !important !important;
-  border-bottom: solid 1px var(--dark-color) !important !important
+  border-right: solid 1px var(--dark-color) !important;
+  border-bottom: solid 1px var(--dark-color) !important
 }
 
 .loom blockquote {
@@ -1199,7 +1195,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .list-menu.-error-page .list-menu__item::after {
-  background-color: var(--dark-boader-color-icon) !important
+  background-color: var(--dark-border-color-icon) !important
 }
 
 .list-menu__item::after {
@@ -2032,7 +2028,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 
 .comment-list.is_not-yet-comment .comment-list__first-info {
-  border-top: solid 1px var(--dark-boader-color-icon) !important
+  border-top: solid 1px var(--dark-border-color-icon) !important
 }
 
 .comment-list.-multiple-issues {
@@ -2053,7 +2049,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .comment-item.is_new {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .comment-item.is_collapsed .comment-item__header .comment-item__collapsed-summary {
@@ -2069,16 +2065,16 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .comment-changelog__item::after {
-  border: 2px solid var(--dark-boader-color-icon) !important;
+  border: 2px solid var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important
 }
 
 .comment-changelog__arrow::after {
-  background-color: var(--dark-boader-color-icon) !important;
+  background-color: var(--dark-border-color-icon) !important;
 }
 
 .comment-changelog__arrow::before {
-  border-left: solid 5px var(--dark-boader-color-icon) !important
+  border-left: solid 5px var(--dark-border-color-icon) !important
 }
 
 .comment-changelog__file-size {
@@ -2141,7 +2137,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .comment-editor__preview-wrapper.is_foucs {
   border-color: var(--dark-theme) !important;
-  background-color: #fcfade;
+  background-color: var(--dark-background-color-hover) !important;
   box-shadow: 0 0 3px var(--dark-theme) !important
 }
 
@@ -2152,7 +2148,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .comment-editor__action-wrapper {
   border-top: 1px solid var(--dark-color) !important;
-  background-color: #f6f6f6
+  background-color: var(--dark-background-color-header) !important
 }
 
 .Page--settings-project .comment-editor__action-wrapper, .Page--settings-space .comment-editor__action-wrapper, .Page--settings-user .comment-editor__action-wrapper, .card--default .comment-editor__action-wrapper, .comment-editor.-fixed-footer .comment-editor__action-wrapper, .comment-item .comment-editor__action-wrapper, .modal__content .comment-editor__action-wrapper, .timeline .comment-editor__action-wrapper {
@@ -2261,7 +2257,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .condition-list__delimiters {
-  color: var(--dark-boader-color-icon) !important
+  color: var(--dark-border-color-icon) !important
 }
 
 .icon-button--default .copy-trigger:hover {
@@ -2269,11 +2265,11 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .copy-trigger.hover-wrapper {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .file-upload__add-drag-area {
-  border: 3px dotted var(--dark-boader-color-icon) !important;
+  border: 3px dotted var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important
 }
 
@@ -2495,11 +2491,11 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .open-issue-dialog-trigger.-notification-list, .open-issue-dialog-trigger.-watch-list {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .open-issue-dialog-trigger.hover-wrapper {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .result-set__mask {
@@ -2508,14 +2504,14 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .search-box__input {
   color: #777;
-  border: solid 1px var(--dark-boader-color-icon) !important;
+  border: solid 1px var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important;
 }
 
 .search-box__input:focus {
   color: var(--dark-color) !important;
   border-color: var(--dark-theme) !important;
-  background-color: #fcfade;
+  background-color: var(--dark-background-color-hover) !important;
   box-shadow: 0 0 3px var(--dark-theme) !important
 }
 
@@ -2526,7 +2522,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 .search-box.is_opened .search-box__input {
   color: var(--dark-color) !important;
   border-color: var(--dark-theme) !important;
-  background-color: #fcfade;
+  background-color: var(--dark-background-color-hover) !important;
   box-shadow: 0 0 3px var(--dark-theme) !important
 }
 
@@ -2796,7 +2792,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .ticket__header.-pull-request .pull-req-id {
-  border-right: dashed 1px var(--dark-boader-color-icon) !important
+  border-right: dashed 1px var(--dark-border-color-icon) !important
 }
 
 .ticket__header.-pull-request .merge-direction__branch {
@@ -2846,7 +2842,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .title-group.-gantt {
-  border-top: solid 2px var(--dark-boader-color-icon) !important;
+  border-top: solid 2px var(--dark-border-color-icon) !important;
   border-right: solid 1px #c2c2c2;
   border-bottom: solid 1px #c2c2c2;
   border-left: solid 1px #c2c2c2;
@@ -2892,7 +2888,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .timeline__stream-item.is_new, .timeline__stream-item.is_new:hover {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .timeline__stream-item.is_deleted {
@@ -2907,7 +2903,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .timeline__see-updated > a {
   color: #7d5411;
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .timeline__see-updated > a:hover {
@@ -2961,7 +2957,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .stream-update__content span.Notification {
   color: #000;
-  background-color: var(--dark-background-color) !important6a9
+  background-color: var(--dark-background-color) !important
 }
 
 .add-comment-area__meta {
@@ -3038,8 +3034,8 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .global-header__user-actions .switch-ui-button__inner {
-  color: #444;
-  border: solid 1px var(--dark-boader-color-icon) !important;
+  color: var(--dark-color) !important;
+  border: solid 1px var(--dark-border-color-icon) !important;
 }
 
 .global-header__user-actions .switch-ui-button:hover .switch-ui-button__inner {
@@ -3094,7 +3090,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .watch-list__item.is_new, .watch-list__item.is_new:hover, .watch-list__item:hover {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .watch-list__item.is_exists-unchecked .watch-list__icon::after {
@@ -3171,7 +3167,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .notification-list__item.is_new, .notification-list__item.is_new:hover, .notification-list__item:hover {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .notification-list__item.is_read {
@@ -3180,7 +3176,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .notification-list__item.is_read:hover {
-  background-color: #fcfade
+  background-color: var(--dark-background-color-hover) !important
 }
 
 .notification-list__link {
@@ -3443,7 +3439,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .Page--view-profile .self-introduction {
-  border: solid 1px var(--dark-boader-color-icon) !important;
+  border: solid 1px var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important
 }
 
@@ -3513,7 +3509,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 .Page--view-gantt .gantt-table__header {
   border-right: solid 1px var(--dark-color) !important;
   border-bottom: solid 1px var(--dark-color) !important;
-  background-color: #f6f6f6
+  background-color: var(--dark-background-color-header) !important
 }
 
 .Page--view-gantt .gantt-table__header.-left:hover {
@@ -3663,7 +3659,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 
 @media print {
   body {
-    background-color: var(--dark-background-color) !important !important
+    background-color: var(--dark-background-color) !important
   }
   .data-table--default.-no-bottom-border {
     border-bottom: solid 1px #c2c2c2 !important;

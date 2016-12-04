@@ -1,10 +1,33 @@
 :root {
+  /*-------------------------------------------------------------
+   * theme
+   *-----------------------------------------------------------*/
   --dark-theme: #00836b;
-  --dark-color: #CCCCCC; /* color: #222 */
-  --dark-background-color: #222222; /* background-color: #fff */
-  --dark-boader-color: #333333; /* border: #bdbdbd */
-}
 
+  /*-------------------------------------------------------------
+   * color
+   *-----------------------------------------------------------*/
+  --dark-color: #CCCCCC;       /* color: #222 */
+  --dark-color-title: #DDDDDD; /* color: #111 */
+
+  /*-------------------------------------------------------------
+   * background-color
+   *-----------------------------------------------------------*/
+  --dark-background-color: #222222;          /* background-color: #fff */
+  --dark-background-color-title: #444444;    /* background-color: #edf4f0 */
+  --dark-background-color-header: #333333;   /* background-color: #f0f0f0 / #f6f6f6 */
+  --dark-background-color-hover: #555555;    /* background-color: #e3eee8 / #fcfade */
+  --dark-background-color-button: #333333;   /* background-color: #e5e5e5 */
+  --dark-background-color-dropdown: #222222; /* background-color: #fff */
+
+  /*-------------------------------------------------------------
+   * border
+   *-----------------------------------------------------------*/
+  --dark-border-color: #333333;        /* border: #bdbdbd */
+  --dark-border-color-icon: #555555;   /* border: #adadad */
+  --dark-border-color-button: #444444; /* border: #e5e5e5 */
+
+}
 .project-list__item {
   border-top: solid 1px #bdbdbd;
   border-right: solid 1px #c2c2c2;
@@ -36,7 +59,7 @@
 }
 
 .project-list__name {
-  color: #111
+  color: var(--dark-color-title) !important
 }
 
 .project-list__key {

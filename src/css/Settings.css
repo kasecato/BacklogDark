@@ -1,196 +1,25 @@
-[class*=Page--settings] .settings-section__heading, [class*=Page--settings] .settings-title {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 2.4rem;
-  margin-top: 0;
-  margin-bottom: 20px
-}
-
-[class*=Page--settings] .settings-section__heading .icon-button, [class*=Page--settings] .settings-title .icon-button {
-  margin-left: 5px
-}
-
-[class*=Page--settings] .settings-section__heading + .settings-pager, [class*=Page--settings] .settings-title + .settings-pager {
-  margin-top: -5px
-}
-
 [class*=Page--settings] .-notice.settings-section__heading, [class*=Page--settings] .-notice.settings-title, [class*=Page--settings] .contract-select-table tr td.blank .selected-info {
   color: #f42858
 }
 
-[class*=Page--settings] .settings-title__info {
-  font-size: 1.2rem;
-  font-weight: 400;
-  padding-left: 8px
-}
-
-[class*=Page--settings] .settings-pager {
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px
-}
-
-[class*=Page--settings] .settings-pager__actions {
-  position: absolute;
-  top: -2px;
-  right: 0;
-  bottom: 0;
-  height: 32px;
-  margin: auto;
-  text-align: right
-}
-
-[class*=Page--settings] .notice {
-  margin-bottom: 20px;
-  text-align: center
-}
 
 [class*=Page--settings] .notice span {
-  font-weight: 700;
   color: #f42858
 }
 
 [class*=Page--settings] .settings-section.-under-any-section, [class*=Page--settings] .settings-section:not(:first-of-type) {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-top: 30px;
-  padding-bottom: 0;
   border-top: solid 1px #bdbdbd
 }
 
-[class*=Page--settings] .settings-section.-under-any-section {
-  margin-top: 20px
-}
-
-[class*=Page--settings] .settings-section.-no-border {
-  padding-top: 0;
-  border-top: 0
-}
-
-[class*=Page--settings] .settings-section__heading + .data-table {
-  margin-top: -8px
-}
-
-[class*=Page--settings] .settings-section__heading-info {
-  font-size: 1.3rem;
-  font-weight: 400;
-  display: inline-block;
-  padding-top: 2px;
-  padding-left: 15px
-}
-
 [class*=Page--settings] fieldset {
-  margin: 40px 0;
-  padding: 0;
   border-top: solid 1px #bdbdbd;
-  border-right: 0;
-  border-bottom: 0;
-  border-left: 0
-}
-
-[class*=Page--settings] fieldset:first-of-type {
-  margin-top: 0
-}
-
-[class*=Page--settings] fieldset legend {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 2.4rem;
-  margin-bottom: 30px;
-  padding-right: 10px
-}
-
-[class*=Page--settings] fieldset legend + .legend-under-description {
-  margin-top: -15px;
-  margin-bottom: 20px
 }
 
 [class*=Page--settings] .Required {
   color: #ea2c00
 }
 
-[class*=Page--settings] .settings-form-table td, [class*=Page--settings] .settings-form-table th {
-  padding: 8px 5px
-}
-
-[class*=Page--settings] .search-controller__search .search-box, [class*=Page--settings] .settings-form-table, [class*=Page--settings] .settings-form-table td {
-  width: 100%
-}
-
-[class*=Page--settings] .settings-form-table th {
-  font-weight: 400;
-  padding-top: 13px;
-  padding-left: 15px;
-  text-align: right;
-  vertical-align: top;
-  white-space: nowrap
-}
-
-[class*=Page--settings] .settings-form-table .row-submit td {
-  padding-top: 13px;
-  text-align: center
-}
-
-[class*=Page--settings] .search-controller {
-  display: table;
-  width: 100%
-}
-
-[class*=Page--settings] .search-controller__label {
-  display: table-cell;
-  padding-right: 10px;
-  white-space: nowrap
-}
-
-[class*=Page--settings] .search-controller__search {
-  display: table-cell;
-  width: 100%
-}
-
-[class*=Page--settings] .search-controller__selects {
-  display: table-cell;
-  white-space: nowrap
-}
-
-[class*=Page--settings] .add-icon-window a {
-  display: inline-block;
-  padding-right: 18px;
-  background-image: url(../../images/_newUI/icon/ico_open_window.png);
-  background-repeat: no-repeat;
-  background-position: right center
-}
-
-[class*=Page--settings] .contract-select-table tr td {
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 2rem
-}
-
-[class*=Page--settings] .contract-select-table tr td.payment, [class*=Page--settings] .contract-select-table tr td.plan-name {
-  width: 20%
-}
-
-[class*=Page--settings] .contract-select-table tr td.payment .creditcard-icon:nth-of-type(1) {
-  margin-left: 5px
-}
-
-[class*=Page--settings] .contract-select-table tr td.price, [class*=Page--settings] .contract-select-table tr td.storage {
-  width: 15%;
-  text-align: center
-}
-
-[class*=Page--settings] .contract-select-table tr td.blank {
-  text-align: center
-}
-
-[class*=Page--settings] .contract-select-table tr td.blank .current-info > span {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.8rem
-}
-
 [class*=Page--settings] .contract-select-table tr.in-use td, [class*=Page--settings] .contract-select-table tr.in-use:hover td {
-  font-weight: 700;
   color: #fff;
   background-color: #77b6a4
 }
@@ -208,12 +37,7 @@
   background-color: #00836b
 }
 
-[class*=Page--settings] .contract-select-table tr.in-use.-no-clickable {
-  cursor: default
-}
-
 [class*=Page--settings] .contract-select-table tr.is_selected td {
-  font-weight: 700;
   background-color: #edf4f0
 }
 
@@ -221,51 +45,12 @@
   background-color: #edf4f0
 }
 
-[class*=Page--settings] .simulate-arrow {
-  margin-top: 13px;
-  margin-bottom: 8px;
-  text-align: center
-}
-
-[class*=Page--settings] .simulate-arrow__icon {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 20px
-}
 
 [class*=Page--settings] .simulate-arrow__icon::after {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  left: 0;
-  width: 100px;
-  height: 20px;
-  margin: auto;
-  content: '';
-  pointer-events: none;
   border-top: 20px solid #e3eee8;
-  border-right: 50px solid transparent;
-  border-left: 50px solid transparent
-}
-
-[class*=Page--settings] .changed-simulate-summary {
-  display: table;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  table-layout: fixed;
-  list-style: none
-}
-
-[class*=Page--settings] .changed-simulate-summary__item {
-  display: table-cell
 }
 
 [class*=Page--settings] .changed-simulate-summary__label {
-  display: inline-block;
-  padding-right: 8px;
-  vertical-align: middle;
   color: #666
 }
 
@@ -500,7 +285,6 @@
   width: 16px;
   height: 16px;
   content: '';
-  background: url(../../images/_newUI/icon/ico_current_check.png) no-repeat left top
 }
 
 .Page--theme-setting .select-icon-list li img {
@@ -551,7 +335,6 @@
   width: 16px;
   height: 16px;
   content: '';
-  background: url(../../images/_newUI/icon/ico_current_check.png) no-repeat left top
 }
 
 .Page--theme-setting .select-theme-list li .theme-box {
@@ -625,49 +408,40 @@
 }
 
 .Page--theme-setting .preview-project-color > span.-pattern-dot, .Page--theme-setting .theme-box.-pattern-dot {
-  background-image: url(../../images/_newUI/theme/bg_dot.png);
   background-size: 108px 107px
 }
 
 .Page--theme-setting .preview-project-color > span.-pattern-line, .Page--theme-setting .theme-box.-pattern-line {
-  background-image: url(../../images/_newUI/theme/bg_line.png);
   background-size: 130px 283px
 }
 
 .Page--theme-setting .preview-project-color > span.-pattern-diagonal, .Page--theme-setting .theme-box.-pattern-diagonal {
-  background-image: url(../../images/_newUI/theme/bg_diagonal.png);
   background-size: 131px
 }
 
 .Page--theme-setting .preview-project-color > span.-pattern-mosaic, .Page--theme-setting .theme-box.-pattern-mosaic {
-  background-image: url(../../images/_newUI/theme/bg_mosaic.png);
   background-size: 120px 29px
 }
 
 .Page--theme-setting .preview-project-color > span.-pattern-plaid, .Page--theme-setting .theme-box.-pattern-plaid {
-  background-image: url(../../images/_newUI/theme/bg_plaid.png);
   background-size: 112px 113px
 }
 
 .Page--theme-setting .preview-project-color > span.theme-army, .Page--theme-setting .theme-box.theme-army {
-  background-image: url(../../images/_newUI/theme/bg_army.png);
   background-size: 250px
 }
 
 .Page--theme-setting .preview-project-color > span.theme-ethnic, .Page--theme-setting .theme-box.theme-ethnic {
-  background-image: url(../../images/_newUI/theme/bg_ethnic_x.png);
   background-repeat: repeat-x;
   background-position: left top;
   background-size: 14px 12px
 }
 
 .Page--theme-setting .preview-project-color > span.theme-leopard, .Page--theme-setting .preview-project-color > span.theme-pink-leopard, .Page--theme-setting .theme-box.theme-leopard, .Page--theme-setting .theme-box.theme-pink-leopard {
-  background-image: url(../../images/_newUI/theme/bg_leopard_ptn.png);
   background-size: 190px 336px
 }
 
 .Page--theme-setting .preview-project-color > span.theme-acrylic, .Page--theme-setting .theme-box.theme-acrylic {
-  background-image: url(../../images/_newUI/theme/bg_acrylic.png);
   background-size: 168px 230px
 }
 
@@ -2760,7 +2534,6 @@ html[lang=en] .Page--edit-plan .plan-table-image, html[lang=zh-cn] .Page--edit-p
   padding-right: 10px;
   padding-left: 20px;
   word-wrap: break-word;
-  background: url(../../images/_newUI/icon/ico_key.png) no-repeat left 4px
 }
 
 .Page--edit-nulab-account .nulab-account-content-inner {

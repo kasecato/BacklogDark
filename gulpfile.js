@@ -18,9 +18,10 @@ const css_src_footer = './src/css/backlog-dark-footer.css';
 const css_src_dir = [
     './src/css/Common.css'
     , './src/css/Dashboard.css'
-    , './src/css/Settings.css'
-    , './src/css/launchbox.css'
-    , './src/css/colorbox-1.6.4.css'
+    //, './src/css/Settings.css'
+    , './src/css/MultipleIssue.css'
+    //, './src/css/launchbox.css'
+    //, './src/css/colorbox-1.6.4.css'
     //, './src/css/Themes.css'
     //, './src/css/prettify.css'
 ];
