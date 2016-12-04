@@ -1,0 +1,45 @@
+#cboxOverlay {
+  background: #000;
+}
+
+.cboxIframe {
+  background: #fff
+}
+
+#cboxError {
+  border: 1px solid #ccc
+}
+
+#cboxTitle {
+  color: #fff;
+}
+
+#cboxPrevious, #cboxNext {
+  background-color: transparent;
+}
+
+#cboxPrevious:hover .icon-button, #cboxNext:hover .icon-button {
+  background-color: rgba(0, 0, 0, 1)
+}
+
+#cboxPrevious .icon-button, #cboxNext .icon-button {
+  background-color: rgba(0, 0, 0, .4)
+}
+
+#cboxPrevious .icon-button .icon--arrow-left::before, #cboxNext .icon-button .icon--arrow-right::before {
+  border-top-color: rgba(255, 255, 255, .9);
+  border-right-color: rgba(255, 255, 255, .9)
+}
+
+#cboxClose {
+  background-color: transparent;
+}
+
+#cboxCurrent {
+  color: #fff;
+}
+
+#cboxLoadingGraphic .loading--circle {
+  border-color: #fff;
+  border-top-color: transparent;
+}

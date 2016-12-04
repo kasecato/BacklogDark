@@ -1,0 +1,38 @@
+{
+  "name": "backlog-dark",
+  "version": "1.0.0",
+  "description": "The Dark Side of Backlog.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "css-mqpacker": "^5.0.1",
+    "cssnext": "^1.8.4",
+    "csswring": "^5.1.0",
+    "postcss-custom-properties": "^5.0.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "postcss-reporter": "^2.0.0",
+    "precss": "^1.4.0",
+    "stylelint": "^7.6.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-headerfooter": "^1.0.3"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k--kato/BacklogDark.git"
+  },
+  "keywords": [
+    "backlog"
+  ],
+  "author": "k--kato",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/k--kato/BacklogDark/issues"
+  },
+  "homepage": "https://github.com/k--kato/BacklogDark"
+}
