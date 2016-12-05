@@ -1,0 +1,322 @@
+:root {
+  /*-------------------------------------------------------------
+   * theme
+   *-----------------------------------------------------------*/
+  --dark-theme: #00836b;
+
+  /*-------------------------------------------------------------
+   * color
+   *-----------------------------------------------------------*/
+  --dark-color: #CCCCCC;       /* color: #222 */
+  --dark-color-title: #DDDDDD; /* color: #111 */
+
+  /*-------------------------------------------------------------
+   * background-color
+   *-----------------------------------------------------------*/
+  --dark-background-color: #222222;          /* background-color: #fff */
+  --dark-background-color-title: #444444;    /* background-color: #edf4f0 */
+  --dark-background-color-header: #333333;   /* background-color: #f0f0f0 / #f6f6f6 */
+  --dark-background-color-hover: #555555;    /* background-color: #e3eee8 / #fcfade */
+  --dark-background-color-button: #333333;   /* background-color: #e5e5e5 */
+  --dark-background-color-dropdown: #222222; /* background-color: #fff */
+
+  /*-------------------------------------------------------------
+   * border
+   *-----------------------------------------------------------*/
+  --dark-border-color: #333333;        /* border: #bdbdbd */
+  --dark-border-color-icon: #555555;   /* border: #adadad */
+  --dark-border-color-button: #444444; /* border: #e5e5e5 */
+
+}
+
+.project-home-milestone-list__trigger {
+  border-top: solid 1px var(--dark-border-color) !important
+}
+
+.Page--find-issue .project-select-loadings__mask {
+  background-color: var(--dark-background-color) !important
+}
+
+.find-issue-table tr.odd > td {
+  background-color: var(--dark-background-color-header) !important
+}
+
+.find-issue-table tr.child-issue-row > td, .find-issue-table tr.is_child-issues-opened > td {
+  background-color: var(--dark-background-color-title) !important
+}
+
+.child-issue-trigger__icon::after {
+  border-left: 7px solid gray;
+}
+
+.child-issue-trigger:hover .child-issue-trigger__icon::after {
+  border-left-color: #2c9a7a
+}
+
+.is_child-issues-opened .child-issue-trigger .child-issue-trigger__icon::after {
+  border-top: 7px solid #2c9a7a;
+}
+
+.parent-issue-card__placeholder {
+  color: #777
+}
+
+.parent-issue-card__summary.is_error {
+  color: #ea2c00
+}
+
+.tab-buttons.is_not-active-all {
+  border: solid 1px #c2c2c2;
+}
+
+.tab-buttons__link, .tab-buttons__link:hover {
+  color: var(--dark-color) !important;
+}
+
+.Page--view-gantt .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .Page--view-gantt .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .tab-buttons__link.is_active svg.icon, .tab-buttons__link:hover svg.icon {
+  fill: #2c9a7a
+}
+
+.tab-buttons__link::after {
+  border-color: #c2c2c2;
+  background-color: var(--dark-background-color) !important;
+}
+
+.tab-buttons__link.is_active {
+  color: var(--dark-color) !important;
+}
+
+.tab-button-content {
+  border-color: #c2c2c2;
+  background-color: var(--dark-background-color) !important
+}
+
+.pull-request-summary-list__link:hover {
+  color: #00836b
+}
+
+.pull-request-summary-list__summary {
+  color: var(--dark-color) !important;
+}
+
+.pull-request-summary-list__summary:hover {
+  color: var(--dark-color) !important;
+}
+
+.Lt-ie10 .child-issues-table tbody td {
+  border-top: solid 3px #f3f3f3;
+  border-bottom: solid 3px #f3f3f3;
+  background-color: var(--dark-background-color) !important
+}
+
+.child-issues-table tbody td.cell-key::before {
+  background-color: var(--dark-border-color) !important
+}
+
+.Lt-ie10 .child-issues-table tbody td.cell-key {
+  border-left: solid 25px #f3f3f3
+}
+
+.child-issues-table tbody tr {
+  border: solid 1px var(--dark-border-color) !important;
+  background-color: var(--dark-background-color) !important
+}
+
+.Lt-ie10 .child-issues-table tbody tr.is_selected td, .Lt-ie10 .child-issues-table tbody tr:hover td {
+  background-color: var(--dark-background-color-hover) !important
+}
+
+.child-issues-table tbody tr.is_current {
+  border-color: #2c9a7a;
+  background-color: var(--dark-background-color-title) !important
+}
+
+.child-issues-table tbody tr.is_current .child-issues-table__pointer::before {
+  background-color: #2c9a7a
+}
+
+.child-issues-table tbody tr.is_current .child-issues-table__pointer::after {
+  border-color: #2c9a7a;
+  background-color: #2c9a7a
+}
+
+.Lt-ie10 .child-issues-table tbody tr.is_current.is_selected td, .Lt-ie10 .child-issues-table tbody tr.is_current:hover td, .child-issues-table tbody tr.is_current.is_selected, .child-issues-table tbody tr.is_current:hover {
+  background-color: var(--dark-background-color-hover) !important
+}
+
+.child-issues-table__pointer::after, .child-issues-table__pointer::before {
+  background-color: var(--dark-border-color) !important
+}
+
+.child-issues-table__pointer::after {
+  border: 2px solid var(--dark-border-color) !important;
+  background-color: var(--dark-background-color) !important
+}
+
+.Page--edit-wiki .wiki-tag-list__count, .Page--find-wiki .wiki-tag-list__count, .Page--view-wiki .wiki-tag-list__count, [class^=Page--wiki] .wiki-tag-list__count {
+  color: #777
+}
+
+.wiki-page-list li a {
+  color: #00836b;
+}
+
+.wiki-page-list li a:hover {
+  color: #00836b;
+  background-color: var(--dark-background-color-hover) !important
+}
+
+.jqtree-toggler .jqtree-toggler-icon {
+  border-top-color: #4caf93;
+}
+
+.jqtree-toggler.jqtree-closed > .jqtree-toggler-icon {
+  border-left-color: #4caf93;
+}
+
+.jqtree-element .wiki-link {
+  color: #00836b
+}
+
+.jqtree-element .wiki-link:hover {
+  text-decoration: none;
+  color: #00836b
+}
+
+.jqtree-element .not-link, span.jqtree-title-folder.nothing-page {
+  color: var(--dark-color) !important;
+}
+
+.jqtree-element .not-link:hover {
+  color: var(--dark-color) !important;
+}
+
+.Page--view-wiki .wiki-content {
+  border: solid 1px #c2c2c2;
+  background-color: var(--dark-background-color) !important
+}
+
+.Page--view-wiki .file-attach {
+  border-top: 1px solid var(--dark-border-color-icon) !important;
+  border-bottom: 1px solid var(--dark-border-color-icon) !important
+}
+
+.Page--view-wiki .wikiquickedit-table td, .Page--view-wiki .wikiquickedit-table th {
+  border: 1px solid var(--dark-border-color) !important
+}
+
+.Page--view-wiki .wikiquickedit-table td.header {
+  background-color: #f3f3f3
+}
+
+.Page--view-wiki .wikiquickedit-table tr.drop-bottom td {
+  border-bottom: 2px solid #555 !important
+}
+
+.Page--view-wiki .wikiquickedit-table tr.drop-top td {
+  border-top: 2px solid #555 !important
+}
+
+.Page--edit-wiki .editWiki-toolbar {
+  border-bottom: 1px solid var(--dark-border-color) !important;
+}
+
+.Page--edit-wiki .editWiki-toolbar__tools.-has-separator::after {
+  background-color: #ccc
+}
+
+.Page--wiki-version .editer p {
+  border-bottom: 1px dashed #999;
+}
+
+.Page--find-file b.rnd {
+  background: #fff 0
+}
+
+.Page--find-file .rno, .Page--find-file .rno .rnd1, .Page--find-file .rno .rnd2 {
+  color: #000;
+  background: #fad163 0
+}
+
+.Page--find-file .erno, .Page--find-file .erno .rnd1, .Page--find-file .erno .rnd2 {
+  color: #fff;
+  background: #900 0
+}
+
+.git-path-bar__branch-switch {
+  background-color: var(--dark-background-color) !important
+}
+
+[class^=Page--git] .no-data-info {
+  border-bottom: solid 1px var(--dark-border-color) !important
+}
+
+[class^=Page--git] .dependent-issue-summary.is_error {
+  color: #ea2c00
+}
+
+.repository-list__description:not(:empty) {
+  border-top: solid 1px var(--dark-border-color) !important
+}
+
+.repository-list__urls-input {
+  color: #777
+}
+
+.Page--git-repository .stream-update__text span.Commit, .Page--git-repository .stream-update__text span.GitPushed {
+  background: #868cb7
+}
+
+.Page--git-repository .stream-update__text span.AddPullRequest, .Page--git-repository .stream-update__text span.AddPullRequestComment, .Page--git-repository .stream-update__text span.UpdatePullRequest {
+  background: #e07b9a
+}
+
+.Page--git-network .git-network {
+  border: solid 1px var(--dark-border-color) !important;
+  background-color: var(--dark-background-color) !important
+}
+
+.Page--git-network .git-network-content {
+  border-top: solid 1px var(--dark-border-color) !important;
+  border-bottom: solid 1px var(--dark-border-color) !important
+}
+
+.Page--git-network .git-network-wrapper__mask {
+  background: var(--dark-background-color-header) !important
+}
+
+.Page--git-branch .pull-req-number {
+  border-right: dashed 1px var(--dark-border-color) !important
+}
+
+.Page--git-list-pullRequest .pull-req-number {
+  color: #00836b;
+  border-right: dashed 1px var(--dark-border-color) !important
+}
+
+.Page--git-view-pullRequest .inline-comment-section {
+  border-top: solid 1px var(--dark-border-color) !important;
+  border-bottom: solid 1px var(--dark-border-color) !important;
+  background-color: var(--dark-background-color-header) !important
+}
+
+.Page--git-view-pullRequest .inline-comment-section .comment-item__inner {
+  border: solid 1px var(--dark-border-color) !important;
+  background-color: var(--dark-background-color) !important
+}
+
+.Page--git-view-pullRequest .inline-comment-section .loom {
+  background-color: var(--dark-background-color) !important
+}
+
+.Page--git-view-pullRequest .shooting-star svg.icon {
+  fill: #eda62a
+}
+
+.Page--git-view-pullRequest .tab-loading-wrapper__mask {
+  background-color: var(--dark-background-color-header) !important
+}
+
+.Page--git-view-pullRequest .ticket__properties.pull-request .pull-request--description {
+  border-bottom: 1px solid #d3d3d3
+}
