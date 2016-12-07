@@ -2,7 +2,7 @@
   /*-------------------------------------------------------------
    * theme
    *-----------------------------------------------------------*/
-  --dark-theme: #00836b;
+  --theme-backlog: #00836b;
 
   /*-------------------------------------------------------------
    * color
@@ -19,6 +19,7 @@
   --dark-background-color-hover: #555555;    /* background-color: #e3eee8 / #fcfade */
   --dark-background-color-button: #333333;   /* background-color: #e5e5e5 */
   --dark-background-color-dropdown: #222222; /* background-color: #fff */
+  --dark-background-color-comment: #333333;  /* background-color: #fff */
   
   /*-------------------------------------------------------------
    * border
@@ -38,7 +39,7 @@ body {
 }
 
 a {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 mark {
@@ -143,7 +144,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 ._trigger-text {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .core-wrapper.-settings {
@@ -242,7 +243,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .button--default {
-  color: var(--dark-theme) !important;
+  color: var(--theme-backlog) !important;
   border: solid 2px var(--dark-border-color-icon) !important;
   background-color: var(--dark-background-color) !important
 }
@@ -252,7 +253,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .button--default:focus, .button--default:hover {
-  color: var(--dark-theme) !important;
+  color: var(--theme-backlog) !important;
   border-color: #2c9a7a;
   background-color: var(--dark-background-color-title) !important
 }
@@ -426,13 +427,13 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .icon-button-textlink:hover {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .card--default {
   padding: 18px;
   border: solid 1px #c2c2c2;
-  background-color: var(--dark-background-color) !important
+  background-color: var(--dark-background-color-comment) !important
 }
 
 .Page--multipleIssue .card--default, .Page--settings-project .card--default, .Page--settings-space .card--default, .Page--settings-user .card--default, .modal__content .card--default {
@@ -537,16 +538,16 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .sort {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .sort a:hover, .sort:hover {
-  color: var(--dark-theme) !important;
+  color: var(--theme-backlog) !important;
   background-color: var(--dark-background-color-hover) !important
 }
 
 .sort.-dropdown.is_active, .sort.-dropdown:hover {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .sort.-dropdown::after {
@@ -599,9 +600,9 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .input-password:focus, .input-text:focus, .textarea:focus {
-  border-color: var(--dark-theme) !important;
+  border-color: var(--theme-backlog) !important;
   background-color: var(--dark-background-color-hover) !important;
-  box-shadow: 0 0 3px var(--dark-theme) !important
+  box-shadow: 0 0 3px var(--theme-backlog) !important
 }
 
 .-no-focus.input-password:focus, .-no-focus.input-text:focus, .-no-focus.textarea:focus {
@@ -633,11 +634,11 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .input-radio + label::after {
   border: solid 2px #fff;
-  background-color: var(--dark-theme) !important
+  background-color: var(--theme-backlog) !important
 }
 
 .input-radio:checked + label::before {
-  border-color: var(--dark-theme) !important
+  border-color: var(--theme-backlog) !important
 }
 
 .input-radio[disabled] + label {
@@ -680,8 +681,8 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .input-checkbox:checked + label::before {
-  border-color: var(--dark-theme) !important;
-  background-color: var(--dark-theme) !important
+  border-color: var(--theme-backlog) !important;
+  background-color: var(--theme-backlog) !important
 }
 
 .input-checkbox[disabled] + label {
@@ -712,8 +713,8 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .input-checkbox.is_error:checked + label::after {
-  border-bottom-color: var(--dark-theme) !important;
-  border-left-color: var(--dark-theme) !important
+  border-bottom-color: var(--theme-backlog) !important;
+  border-left-color: var(--theme-backlog) !important
 }
 
 .selectbox {
@@ -898,8 +899,8 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .chosen-wrapper .chzn-container-active .chzn-single.chzn-single-with-drop {
-  border: solid 1px var(--dark-theme) !important;
-  box-shadow: 0 0 3px var(--dark-theme) !important
+  border: solid 1px var(--theme-backlog) !important;
+  box-shadow: 0 0 3px var(--theme-backlog) !important
 }
 
 .chosen-wrapper .chzn-container-active.-upper .chzn-single.chzn-single-with-drop::after {
@@ -907,8 +908,8 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .chosen-wrapper .chzn-container-active .chzn-choices {
-  border: solid 1px var(--dark-theme) !important;
-  box-shadow: 0 0 3px var(--dark-theme) !important
+  border: solid 1px var(--theme-backlog) !important;
+  box-shadow: 0 0 3px var(--theme-backlog) !important
 }
 
 .form-element__item + .form-element__item.-has-border {
@@ -1104,7 +1105,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .loading--circle {
-  border: 2px solid var(--dark-theme) !important;
+  border: 2px solid var(--theme-backlog) !important;
 }
 
 .loading--bar {
@@ -1125,7 +1126,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .dropdown-link.is_active, .dropdown-link.is_opened, .dropdown-link:hover {
   text-decoration: none;
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .dropdown-link.is_active::after, .dropdown-link.is_opened::after, .dropdown-link:hover::after {
@@ -1268,7 +1269,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .modal.-wiki-cacoo-dialog .modal__content .cacoo-dialog-step {
   color: #fff;
-  background-color: var(--dark-theme) !important
+  background-color: var(--theme-backlog) !important
 }
 
 .modal-membrane {
@@ -1842,7 +1843,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .calendar__button .today-button {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .calendar__head--row-1 {
@@ -2049,7 +2050,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .comment-item.is_new {
-  background-color: var(--dark-background-color-hover) !important
+  background-color: var(--dark-background-color-comment) !important
 }
 
 .comment-item.is_collapsed .comment-item__header .comment-item__collapsed-summary {
@@ -2136,9 +2137,9 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .comment-editor__preview-wrapper.is_foucs {
-  border-color: var(--dark-theme) !important;
+  border-color: var(--theme-backlog) !important;
   background-color: var(--dark-background-color-hover) !important;
-  box-shadow: 0 0 3px var(--dark-theme) !important
+  box-shadow: 0 0 3px var(--theme-backlog) !important
 }
 
 .comment-editor__preview-wrapper.is_error {
@@ -2162,7 +2163,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .comment-editor__preview-menu-item:hover {
-  color: var(--dark-theme) !important;
+  color: var(--theme-backlog) !important;
   background-color: #f3f3f3
 }
 
@@ -2176,7 +2177,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .comment-editor__emoticon-panel img:hover {
-  border: solid 2px var(--dark-theme) !important;
+  border: solid 2px var(--theme-backlog) !important;
 }
 
 .comment-editor__emoticon-panel img:active {
@@ -2274,7 +2275,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .file-upload__add-drag-area.is_drag-enter {
-  border-color: var(--dark-theme) !important;
+  border-color: var(--theme-backlog) !important;
   background-color: var(--dark-background-color-title) !important
 }
 
@@ -2460,7 +2461,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 #blg_status_bar_bg, .flash-message__bg {
-  background-color: var(--dark-theme) !important
+  background-color: var(--theme-backlog) !important
 }
 
 #blg_status_bar_bg.failure, .flash-message__bg.is_failure {
@@ -2510,9 +2511,9 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .search-box__input:focus {
   color: var(--dark-color) !important;
-  border-color: var(--dark-theme) !important;
+  border-color: var(--theme-backlog) !important;
   background-color: var(--dark-background-color-hover) !important;
-  box-shadow: 0 0 3px var(--dark-theme) !important
+  box-shadow: 0 0 3px var(--theme-backlog) !important
 }
 
 .search-box__input.is_disabled, .search-box__input[disabled] {
@@ -2521,9 +2522,9 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 
 .search-box.is_opened .search-box__input {
   color: var(--dark-color) !important;
-  border-color: var(--dark-theme) !important;
+  border-color: var(--theme-backlog) !important;
   background-color: var(--dark-background-color-hover) !important;
-  box-shadow: 0 0 3px var(--dark-theme) !important
+  box-shadow: 0 0 3px var(--theme-backlog) !important
 }
 
 .search-box.is_opened .search-box__input.is_noinput {
@@ -2944,7 +2945,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .stream-update__summary.is_new .Key {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .stream-update__content .file-name.is_deleted, .stream-update__summary .Project-user-updates .OutOfProjectUsers {
@@ -2978,7 +2979,7 @@ body.Page--find-issue-print, body.Page--login-default, body.Page--multipleIssue,
 }
 
 .user-icon-set__text.-link {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .user-icon-set__sub-line {
@@ -3061,7 +3062,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .global-nav__link.is_opened, .global-nav__link:hover {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .global-nav-content .is_copied {
@@ -3069,7 +3070,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 }
 
 .global-nav-content .copyMsg {
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .watch-list-link .watch-badge {
@@ -3461,7 +3462,7 @@ span.global-search-keyword-highlight, span.star-comment-highlight {
 
 .Page--error .tagline {
   font-family: Consolas, Menlo, Courier, Monaco, monospace, sans-serif;
-  color: var(--dark-theme) !important
+  color: var(--theme-backlog) !important
 }
 
 .Page--error .error-title__sub-line {

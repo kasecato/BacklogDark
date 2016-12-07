@@ -1,6 +1,6 @@
 {
   "name": "backlog-dark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The Dark Side of Backlog.",
   "main": "gulpfile.js",
   "dependencies": {},
