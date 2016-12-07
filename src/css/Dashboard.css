@@ -2,7 +2,7 @@
   /*-------------------------------------------------------------
    * theme
    *-----------------------------------------------------------*/
-  --dark-theme: #00836b;
+  --theme-backlog: #00836b;
 
   /*-------------------------------------------------------------
    * color
@@ -13,12 +13,14 @@
   /*-------------------------------------------------------------
    * background-color
    *-----------------------------------------------------------*/
-  --dark-background-color: #222222;          /* background-color: #fff */
-  --dark-background-color-title: #444444;    /* background-color: #edf4f0 */
-  --dark-background-color-header: #333333;   /* background-color: #f0f0f0 / #f6f6f6 */
-  --dark-background-color-hover: #555555;    /* background-color: #e3eee8 / #fcfade */
-  --dark-background-color-button: #333333;   /* background-color: #e5e5e5 */
-  --dark-background-color-dropdown: #222222; /* background-color: #fff */
+  --dark-background-color: #222222;               /* background-color: #fff */
+  --dark-background-color-title: #444444;         /* background-color: #edf4f0 */
+  --dark-background-color-header: #333333;        /* background-color: #f0f0f0 / #f6f6f6 */
+  --dark-background-color-hover: #555555;         /* background-color: #e3eee8 / #fcfade */
+  --dark-background-color-button: #333333;        /* background-color: #e5e5e5 */
+  --dark-background-color-dropdown: #222222;      /* background-color: #fff */
+  --dark-background-color-info: #222222;          /* background-color: #fcfade */
+  --dark-background-color-info-finished: #333333; /* background-color: #e5e5e5 */
 
   /*-------------------------------------------------------------
    * border
@@ -185,4 +187,36 @@
 
 .start-message__info li p {
   color: #777
+}
+
+.start-message-info__item {
+  background-color: var(--dark-background-color-info) !important
+}
+
+.start-message-info__item.is_finished {
+  background-color: var(--dark-background-color-info-finished) !important
+}
+
+.start-message-info__item.is_finished .start-message-info__item-icon {
+  background-color: #bbb
+}
+
+.start-message-info__item.is_finished a {
+  color: #777
+}
+
+.start-message-info__item:first-child {
+  border-right: solid 1px #c2c2c2
+}
+
+.start-message-info__item:last-child {
+  border-left: solid 1px #c2c2c2
+}
+
+.start-message-info__item-icon {
+  background-color: rgba(119, 182, 164, .6)
+}
+
+.start-message-info__item-icon svg.icon {
+  fill: #fff
 }

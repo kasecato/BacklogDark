@@ -1,0 +1,100 @@
+:root {
+  /*-------------------------------------------------------------
+   * theme
+   *-----------------------------------------------------------*/
+  --theme-backlog: #00836b;
+
+  /*-------------------------------------------------------------
+   * color
+   *-----------------------------------------------------------*/
+  --dark-color: #CCCCCC;       /* color: #222 */
+  --dark-color-title: #DDDDDD; /* color: #111 */
+
+  /*-------------------------------------------------------------
+   * background-color
+   *-----------------------------------------------------------*/
+  --dark-background-color: #222222;          /* background-color: #fff */
+  --dark-background-color-title: #444444;    /* background-color: #edf4f0 */
+  --dark-background-color-header: #333333;   /* background-color: #f0f0f0 / #f6f6f6 */
+  --dark-background-color-hover: #555555;    /* background-color: #e3eee8 / #fcfade */
+  --dark-background-color-button: #333333;   /* background-color: #e5e5e5 */
+  --dark-background-color-dropdown: #222222; /* background-color: #fff */
+
+  /*-------------------------------------------------------------
+   * border
+   *-----------------------------------------------------------*/
+  --dark-border-color: #333333;        /* border: #bdbdbd */
+  --dark-border-color-icon: #555555;   /* border: #adadad */
+  --dark-border-color-button: #444444; /* border: #e5e5e5 */
+
+}
+
+#hero {
+  background: var(--dark-background-color) !important
+}
+
+#hero .Group:after {
+  background: var(--dark-background-color) !important
+}
+
+#hero .Group hgroup {
+  color: #fff
+}
+
+#hero .Group .Read, #hero .Group hgroup h1, #hero .Group hgroup h2 {
+  text-shadow: 0 2px 0 rgba(77, 126, 0, .7)
+}
+
+#hero .Group .Read {
+  color: #fff
+}
+
+#hero .Group .Register .Register-btn {
+  color: #fff;
+  background-image: linear-gradient(#00b9fb, #06c 100%);
+  box-shadow: 0 0 0 5px rgba(51, 51, 51, .2), inset 0 -1px 0 0 rgba(51, 51, 51, .2), inset 0 1px 0 0 #00b9fb, inset 0 2px 0 0 rgba(255, 255, 255, .2);
+  -ms-box-shadow: 0 0 0 5px rgba(51, 51, 51, .2), inset 0 -1px 0 0 rgba(51, 51, 51, .2), inset 0 1px 0 0 #00b9fb, inset 0 2px 0 0 rgba(255, 255, 255, .2);
+  -o-box-shadow: 0 0 0 5px rgba(51, 51, 51, .2), inset 0 -1px 0 0 rgba(51, 51, 51, .2), inset 0 1px 0 0 #00b9fb, inset 0 2px 0 0 rgba(255, 255, 255, .2)
+}
+
+.ie6 #hero .Group .Register .Register-btn, .ie7 #hero .Group .Register .Register-btn, .ie8 #hero .Group .Register .Register-btn, .ie9 #hero .Group .Register .Register-btn {
+  border: 1px solid #0a5dae;
+}
+
+#hero .Group .Register .Register-btn span {
+  text-shadow: 0 1px 0 #025cb9
+}
+
+#hero .Group .Register .Register-btn:hover {
+  background-image: linear-gradient(#00d3fd, #0087e1 100%)
+}
+
+.ie6 #hero .Group .Register .Register-btn:hover, .ie7 #hero .Group .Register .Register-btn:hover, .ie8 #hero .Group .Register .Register-btn:hover, .ie9 #hero .Group .Register .Register-btn:hover {
+  border: 1px solid #0a7ecf;
+}
+
+#hero .Group .Register p {
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(77, 126, 0, .7)
+}
+
+#hero .Group .Promo .Item {
+  color: #fff
+}
+
+#component .Tour_link_btn {
+  color: #fff;
+  background: #88cdee
+}
+
+#component .Tour_link_btn:hover {
+  background: #9ed6f1
+}
+
+#clients .Group {
+  border-top: 1px solid #b0b0b0
+}
+
+#clients h1 {
+  color: #72ac00
+}
