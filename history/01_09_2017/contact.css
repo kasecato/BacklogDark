@@ -1,0 +1,376 @@
+#inputBlock dl dd ul,#main {
+	overflow:hidden
+}
+#content {
+	float:left;
+	width:715px;
+	padding:0
+}
+#secondary {
+	float:right;
+	width:210px;
+	padding:0
+}
+#inputBlock,#secondary .Side-menu {
+	margin-bottom:30px
+}
+#secondary .Side-menu h1 {
+	font-size:1.125rem;
+	margin-bottom:10px;
+	color:#333
+}
+.ie8 #secondary .Side-menu h1 {
+	font-size:18px
+}
+#secondary .Side-menu a {
+	color:#333
+}
+#secondary .Side-menu ul li {
+	margin-bottom:10px
+}
+#secondary #faq-menu {
+	width:210px
+}
+#secondary #faq-menu ul li a,#secondary .Support-menu ul li a {
+	line-height:1.4;
+	display:inline-block;
+	padding-left:21px
+}
+#secondary #faq-menu ul li.Faq a {
+	background:url(../img/support/ico_faq.png) no-repeat 0 0
+}
+#secondary #faq-menu ul li.Service a {
+	background:url(../img/support/ico_service.png) no-repeat 0 0
+}
+#secondary #faq-menu ul li.Pricing a {
+	background:url(../img/support/ico_pricing.png) no-repeat 0 0
+}
+#secondary #faq-menu ul li.Security a {
+	background:url(../img/support/ico_security.png) no-repeat 0 0
+}
+#secondary #faq-menu ul li.Package a {
+	background:url(../img/support/ico_package.png) no-repeat 0 0
+}
+#secondary .Search h1 {
+	margin-bottom:5px
+}
+#secondary .Search .Search-box .Text-input {
+	font-size:.75rem;
+	line-height:18px;
+	width:179px;
+	height:18px;
+	margin-bottom:5px;
+	padding:4px 4px 4px 25px;
+	color:#999;
+	border:1px solid #ccc;
+	border-radius:3px;
+	background:#fff url(../img/common/icon/ico_search.png) no-repeat 5px 5px
+}
+.ie8 #contact .Explanation,.ie8 #inputBlock dl dt span,.ie8 #inputBlock p.Hint,.ie8 #secondary .Search .Search-box .Text-input {
+	font-size:12px
+}
+#secondary .Search .Search-box .Text-input:focus {
+	color:#333;
+	outline:none
+}
+#secondary .Search .Search-box .Text-input:focus::-webkit-input-placeholder {
+	color:#ccc
+}
+#secondary .Search .Search-box .Text-input:focus:-moz-placeholder {
+	color:#ccc
+}
+#secondary .Search .Search-box .Btn-area,.Agree-box {
+	text-align:center
+}
+#secondary .Support-menu ul li.Contact {
+	background:url(../img/common/icon/ico_contact_16px.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Updates {
+	background:url(../img/common/icon/ico_updates_16px.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Help {
+	background:url(../img/common/icon/ico_help_16px.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Faq {
+	background:url(../img/support/ico_faq.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Voice {
+	background:url(../img/common/icon/ico_uservoice_16px.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Twitter {
+	background:url(../img/common/icon/ico_twitter.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Facebook {
+	background:url(../img/common/icon/ico_facebook.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Google {
+	background:url(../img/common/icon/ico_google.png) no-repeat 0 0
+}
+#secondary .Support-menu ul li.Support {
+	margin-top:20px;
+	padding-top:15px;
+	border-top:1px solid #e1e9cf
+}
+#secondary .Support-menu ul li.Support a {
+	background:#fff url(../img/common/icon/ico_back.png) no-repeat 0 0
+}
+#contact>p {
+	font-size:.875rem
+}
+.ie8 #contact .Privacy-txt,.ie8 #contact>p,.ie8 #inputBlock dl dt,.ie8 .Frequently-faq .Faq-list-area .Faq-list li a,.ie8 .Frequently-faq p {
+	font-size:14px
+}
+#contact .Top-txt {
+	margin-bottom:2em;
+	padding-right:10px
+}
+#contact .Top-txt p {
+	font-size:108%;
+	line-height:1.6;
+	margin-bottom:1em;
+	color:#333
+}
+#contact .Explanation {
+	font-size:.75rem;
+	margin-bottom:.5em;
+	color:red
+}
+#contact .Privacy-txt,#inputBlock dl dt {
+	font-size:.875rem;
+	font-weight:700;
+	margin-bottom:.5em;
+	color:#333
+}
+#inputBlock p.Error {
+	color:#c00
+}
+#inputBlock dl textarea.Error,#inputBlock input.Error,#inputBlock textarea.Error {
+	background-color:#fc9
+}
+#inputBlock p.Hint {
+	font-size:.75rem;
+	margin-top:8px
+}
+#inputBlock span.Hint {
+	font-size:93%;
+	line-height:1.4;
+	margin-left:4px;
+	padding-top:4px;
+	padding-left:0
+}
+#inputBlock dl,#inputBlock dl.Even {
+	border-right:1px solid #89825f;
+	border-left:1px solid #89825f
+}
+#inputBlock dl {
+	padding:15px 25px;
+	background-color:#f9f8e3
+}
+#inputBlock dl input,#inputBlock dl textarea {
+	font-size:123.1%;
+	padding:4px;
+	border:1px solid #8a8360;
+	border-radius:4px
+}
+#inputBlock dl textarea {
+	width:98%
+}
+#inputBlock dl.Even {
+	background-color:#f3f1ca
+}
+#inputBlock dl.Start {
+	border:1px solid #89825f;
+	border-bottom:none;
+	border-radius:4px 4px 0 0
+}
+#inputBlock dl.Last {
+	border:1px solid #89825f;
+	border-top:none;
+	border-radius:0 0 4px 4px;
+	background-color:#f3f1ca
+}
+#inputBlock dl dt {
+	margin-bottom:5px;
+	vertical-align:top
+}
+#inputBlock dl dt span {
+	font-size:.75rem;
+	color:red
+}
+#inputBlock dl dd .W380 {
+	width:370px;
+	height:20px
+}
+#inputBlock dl dd .W210 {
+	width:200px;
+	height:20px
+}
+#inputBlock dl dd .Space_id {
+	margin:0 5px
+}
+#inputBlock dl dd ul li {
+	line-height:2;
+	float:left;
+	width:33.3%
+}
+#inputBlock dl dd ul li input,#inputBlock dl dd ul li textarea {
+	margin-right:.3em
+}
+#inputBlock.Thanks {
+	padding-right:140px;
+	text-align:center
+}
+#inputBlock.Thanks p {
+	line-height:1.5;
+	margin-top:10px;
+	padding-left:63px
+}
+#inputBlock.Thanks p:first-child {
+	margin-top:20px
+}
+#inputBlock.Thanks .Back-btn,.Btn-wrap li .SubmitBtn {
+	font-weight:700;
+	display:inline-block;
+	padding:8px 60px;
+	cursor:pointer;
+	color:#fff;
+	border:1px solid #80b219;
+	border-radius:5px;
+	background-image:linear-gradient(#a9ca62,#a4c561 49%,#8db63a 50%,#729f16 100%);
+	box-shadow:inset 0 1px 0 0 rgba(255,255,255,.4)
+}
+#inputBlock.Thanks .Back-btn {
+	font-size:.9375rem;
+	margin:40px 0 0 55px;
+	-ms-box-shadow:inset 0 1px 0 0 rgba(255,255,255,.4);
+	-o-box-shadow:inset 0 1px 0 0 rgba(255,255,255,.4)
+}
+.ie8 #inputBlock.Thanks .Back-btn {
+	font-size:15px
+}
+.ie6 #inputBlock.Thanks .Back-btn,.ie6 .Btn-wrap li .SubmitBtn,.ie7 #inputBlock.Thanks .Back-btn,.ie7 .Btn-wrap li .SubmitBtn,.ie8 #inputBlock.Thanks .Back-btn,.ie8 .Btn-wrap li .SubmitBtn,.ie9 #inputBlock.Thanks .Back-btn,.ie9 .Btn-wrap li .SubmitBtn {
+	background:url(../img/support/ie/btn_submit_ie.png) repeat-x 0 0
+}
+#inputBlock.Thanks .Back-btn:hover,.Btn-wrap li .SubmitBtn:hover {
+	text-decoration:none;
+	border:1px solid #93bd3b;
+	background-image:linear-gradient(#a8ca62,#a4c461 49%,#8db63a 50%,#87ad39 100%)
+}
+.ie6 #inputBlock.Thanks .Back-btn:hover,.ie6 .Btn-wrap li .SubmitBtn:hover,.ie7 #inputBlock.Thanks .Back-btn:hover,.ie7 .Btn-wrap li .SubmitBtn:hover,.ie8 #inputBlock.Thanks .Back-btn:hover,.ie8 .Btn-wrap li .SubmitBtn:hover,.ie9 #inputBlock.Thanks .Back-btn:hover,.ie9 .Btn-wrap li .SubmitBtn:hover {
+	background-position:0 -40px
+}
+#privacyBlock {
+	margin-bottom:2em;
+	padding:25px 15px 25px 25px;
+	border:1px solid #89825f;
+	border-radius:4px;
+	background-color:#f9f8e3
+}
+#inputBlock dl .Agree-box textarea,.Agree-box #inputBlock dl textarea,.Agree-box input,.Agree-box label,.Agree-box span {
+	vertical-align:middle
+}
+.Agree-box span {
+	color:red
+}
+.Agree-box label {
+	font-weight:700
+}
+.Agree-box #agreeError {
+	font-size:108%;
+	display:none;
+	padding:5px 0;
+	text-indent:1em;
+	color:#c00
+}
+.Btn-wrap {
+	margin:20px 0;
+	text-align:center
+}
+.Btn-wrap li {
+	display:inline-block;
+	margin:0 15px
+}
+.Btn-wrap li .SubmitBtn {
+	font-size:116%
+}
+.Btn-wrap li .BackBtn {
+	padding:8px 30px;
+	border-radius:5px
+}
+.Information {
+	margin-bottom:1em;
+	padding:15px 20px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background-color:#fdfdeb;
+	box-shadow:inset 0 1px #fff;
+	-ms-box-shadow:inset 0 1px #fff;
+	-o-box-shadow:inset 0 1px #fff
+}
+#content.Support div.Information p,.Information p {
+	line-height:1.6;
+	margin:.5em
+}
+.Information .Ttl {
+	font-size:1rem;
+	font-weight:700;
+	text-align:center;
+	color:#c00
+}
+.ie8 .Frequently-faq .Category-ttl,.ie8 .Information .Ttl {
+	font-size:16px
+}
+.Frequently-faq {
+	margin-bottom:2em;
+	padding:4px;
+	border-radius:8px;
+	background-color:#efeef0
+}
+.Frequently-faq .Category-ttl {
+	font-size:1rem;
+	font-weight:700;
+	margin-bottom:0;
+	padding:7px 20px 6px;
+	color:#fff;
+	border:1px solid #93c300;
+	border-bottom:1px solid #789f00;
+	border-radius:6px 6px 0 0;
+	background-image:linear-gradient(#93c300,#85b000 100%);
+	box-shadow:inset 0 1px 0 0 #c1de74,inset 1px 0 0 0 #c1de74,inset -1px 0 0 0 #c1de74
+}
+.ie6 .Frequently-faq .Category-ttl,.ie7 .Frequently-faq .Category-ttl,.ie8 .Frequently-faq .Category-ttl,.ie9 .Frequently-faq .Category-ttl {
+	background:#87b200 url(../img/support/ie/bg_category_ttl_ie.png) repeat-x left top
+}
+.Frequently-faq p {
+	font-size:.875rem;
+	line-height:1.4;
+	margin-bottom:1em
+}
+.Frequently-faq .Faq-list-area {
+	padding:15px 25px;
+	border:1px solid #e0dfe3;
+	border-radius:0 0 6px 6px;
+	background-color:#fff
+}
+.Frequently-faq .Faq-list-area .Faq-list li {
+	line-height:1.4;
+	margin-bottom:10px
+}
+.Frequently-faq .Faq-list-area .Faq-list li a {
+	font-size:.875rem;
+	display:inline-block;
+	margin-bottom:5px;
+	padding-left:25px;
+	color:#333;
+	background:url(../img/common/icon/ico_faq_list.png) no-repeat 0 1px
+}
+.Frequently-faq .Faq-list-area .Faq-list li p {
+	font-size:.8125rem
+}
+.ie8 .Frequently-faq .Faq-list-area .Faq-list li p {
+	font-size:13px
+}
+.Frequently-faq .Others {
+	margin-bottom:0;
+	text-align:center
+}

@@ -1,0 +1,717 @@
+.Entry-content {
+	line-height:1.5
+}
+.Entry-content h2,.Entry-content h3,.Entry-content h4,.Entry-content h5,.Entry-content h6 {
+	margin-bottom:1em
+}
+.Entry-content h2 {
+	font-size:1rem
+}
+.ie8 .Entry-content h2 {
+	font-size:16px
+}
+.Entry-content h3 {
+	font-size:.9375rem
+}
+.ie8 .Entry-content h3 {
+	font-size:15px
+}
+.Entry-content h4 {
+	font-size:.875rem
+}
+.ie8 .Entry-content h4 {
+	font-size:14px
+}
+.Entry-content h5 {
+	font-size:.8125rem
+}
+.ie8 .Entry-content h5 {
+	font-size:13px
+}
+.Entry-content h6 {
+	font-size:.75rem
+}
+.ie8 .Entry-content h6 {
+	font-size:12px
+}
+.Entry-content p {
+	font-size:.875rem;
+	margin-bottom:1em
+}
+.ie8 .Entry-content p {
+	font-size:14px
+}
+.Entry-content p b,.Entry-content p strong {
+	font-weight:700
+}
+.Entry-content p.attention {
+	display:block;
+	padding:8px 20px;
+	color:#c00;
+	border:1px solid #fc0;
+	background-color:#ffc
+}
+.Entry-content ul {
+	font-size:.875rem;
+	margin-bottom:1em
+}
+.ie8 .Entry-content ul {
+	font-size:14px
+}
+.Entry-content ul * {
+	font-size:.8125rem
+}
+.ie8 .Entry-content ul * {
+	font-size:13px
+}
+.Entry-content ul li {
+	margin-left:2em;
+	list-style-type:disc
+}
+.Entry-content ul li ul li {
+	margin-left:2.8em!important;
+	list-style-type:circle
+}
+.Entry-content ul li ul li ul li {
+	margin-left:3.6em!important;
+	list-style-type:square
+}
+.Entry-content ul.Default {
+	margin-bottom:1em
+}
+.Entry-content ul.Default li {
+	margin-left:2em;
+	list-style-type:disc
+}
+.Entry-content ul.Default li ul li {
+	margin-left:2.8em!important;
+	list-style-type:circle
+}
+.Entry-content ul.Default li ul li ul li {
+	margin-left:3.6em!important;
+	list-style-type:square
+}
+.Entry-content ul.default {
+	margin-bottom:1em
+}
+.Entry-content ul.default li {
+	margin-left:2em;
+	list-style-type:disc
+}
+.Entry-content ul.default li ul li {
+	margin-left:2.8em!important;
+	list-style-type:circle
+}
+.Entry-content ul.default li ul li ul li {
+	margin-left:3.6em!important;
+	list-style-type:square
+}
+.Entry-content ul.Unstyled {
+	margin-bottom:1em
+}
+.Entry-content ul.Unstyled li {
+	margin-left:0;
+	list-style-type:none!important
+}
+.Entry-content ol {
+	font-size:.875rem
+}
+.ie8 .Entry-content ol {
+	font-size:14px
+}
+.Entry-content ol * {
+	font-size:.8125rem
+}
+.ie8 .Entry-content ol * {
+	font-size:13px
+}
+.Entry-content ol li,.Entry-content ol.Default li,.Entry-content ol.default li {
+	margin-left:2em;
+	list-style-type:decimal
+}
+.Entry-content ol.Unstyled li {
+	margin-left:0;
+	list-style-type:none!important
+}
+.Entry-content table {
+	width:auto;
+	margin-bottom:1em;
+	border:1px solid #ccc
+}
+.Entry-content table th,.Entry-content table td {
+	padding:10px 15px;
+	text-align:justify;
+	border:1px solid #ccc
+}
+.Entry-content table th {
+	font-weight:700;
+	white-space:nowrap;
+	background-color:#f3f6eb
+}
+.Entry-content pre {
+	font-family:'Bitstream Vera Sans Mono','Courier',monospace;
+	font-size:.8125rem;
+	line-height:1.4;
+	padding:10px 15px 5px;
+	word-break:break-word;
+	border:1px solid #999;
+	border-radius:2px;
+	background-color:#eee
+}
+.ie8 .Entry-content pre {
+	font-size:13px
+}
+.Entry-content pre.Unstyled {
+	font-family:inherit;
+	font-size:.875rem;
+	padding:0;
+	border:0 none;
+	background-color:transparent
+}
+.ie8 .Entry-content pre.Unstyled {
+	font-size:14px
+}
+.Entry-content blockquote {
+	font-style:italic;
+	margin:0 0 1em;
+	padding:1em 2em;
+	border-left:8px solid #c6c6c6
+}
+.Entry-content blockquote>*:first-child {
+	margin-top:0!important
+}
+.Entry-content blockquote>*:last-child {
+	margin-bottom:0!important
+}
+.Entry-content hr {
+	display:inherit;
+	margin:2em 0;
+	padding:0;
+	border:0;
+	border-bottom:1px solid;
+	border-bottom-color:#ccc
+}
+.individual #copyright {
+	border-top:1px solid #d9decb
+}
+.security .Group {
+	margin-bottom:40px
+}
+.security .Group h1 {
+	font-size:2.125rem;
+	margin-bottom:10px;
+	color:#8abe00
+}
+.ie8 .security .Group h1 {
+	font-size:34px
+}
+.security .Group .Desc {
+	font-size:1rem;
+	font-weight:700;
+	line-height:1.5;
+	margin-bottom:45px
+}
+.ie8 .security .Group .Desc {
+	font-size:16px
+}
+.security .Group .Item {
+	overflow:hidden;
+	margin-bottom:50px
+}
+.security .Group .Item h2 {
+	font-size:1.375rem;
+	margin-bottom:10px;
+	color:#333
+}
+.ie8 .security .Group .Item h2 {
+	font-size:22px
+}
+.security .Group .Item p {
+	font-size:.875rem;
+	line-height:1.5;
+	margin-bottom:1em;
+	color:#333
+}
+.ie8 .security .Group .Item p {
+	font-size:14px
+}
+.security .Group .Item a {
+	text-decoration:none;
+	color:#06f
+}
+.security .Group .Item a:hover {
+	text-decoration:underline
+}
+.security .Group .Item .Align-left {
+	float:left;
+	margin:0 2em 2em 0
+}
+.security .Group .Item .Align-center {
+	display:block;
+	margin:0 auto
+}
+.security .Group .Item .Align-right {
+	float:right;
+	margin:0 0 1em 2em
+}
+.security .Group .Item .Clear {
+	clear:both
+}
+.security #section01 img {
+	display:inline;
+	margin-top:-30px;
+	margin-right:40px;
+	margin-left:105px
+}
+.security #section02 img.Align-right {
+	margin-left:20px
+}
+.security #section02 .Privacy-mark {
+	overflow:hidden;
+	width:522px;
+	padding:10px 18px;
+	border:1px solid #93c401
+}
+.security #section02 .Privacy-mark dt {
+	float:left;
+	margin-right:20px
+}
+.security #section02 .Privacy-mark dd p {
+	margin-bottom:0!important;
+	padding-top:8px
+}
+.security #section03 img.Align-right {
+	margin-right:45px;
+	margin-bottom:40px;
+	margin-left:60px
+}
+.security #section04 img.Align-right {
+	margin-top:-20px;
+	margin-left:45px
+}
+.security #section05 {
+	margin-bottom:30px
+}
+.security #section05 img.Align-right {
+	margin-top:-40px;
+	margin-left:45px
+}
+.security #section06 img.Align-right {
+	margin-top:-25px
+}
+.security #section07 {
+	margin-bottom:25px
+}
+.security #section07 img.Align-right {
+	margin-top:-25px;
+	margin-left:50px
+}
+.security #section08 img.Align-right {
+	margin-top:-10px;
+	margin-left:50px
+}
+.security #section09 img.Align-right {
+	margin-left:45px
+}
+.privacy .Group {
+	font-size:108%;
+	margin:30px 0
+}
+.privacy .Group h1 {
+	font-size:138.5%;
+	margin-bottom:1em
+}
+.privacy .Group p {
+	line-height:1.5;
+	margin-bottom:1em
+}
+.privacy .Group ol li {
+	margin:15px 0 15px 2em;
+	list-style-type:decimal
+}
+.privacy .Group ol li ol li {
+	margin-left:3em;
+	list-style-type:decimal
+}
+.privacy .Group ul li {
+	margin:15px 0 15px 2em;
+	list-style-type:disc
+}
+.privacy section.PrivaryMark a {
+	float:right;
+	padding-left:1em
+}
+.privacy section.Copy {
+	text-align:right
+}
+.account .Group {
+	margin-bottom:30px
+}
+.account .Group h1 {
+	font-size:138.5%;
+	margin-bottom:1em
+}
+.account .Group p {
+	font-size:108%;
+	line-height:1.4
+}
+.account .Group ol li {
+	font-size:108%;
+	margin:10px 0 10px 1.5em;
+	list-style:outside decimal
+}
+.account .Group ol li ol li {
+	font-size:100%
+}
+.law table {
+	width:950px;
+	margin-bottom:40px;
+	border:1px solid #ccc;
+	border-top:0
+}
+.law table th,.law table td {
+	font-size:108%;
+	text-align:justify;
+	border:1px solid #ccc
+}
+.law table td {
+	padding:15px 20px
+}
+.law table th {
+	font-weight:700;
+	padding:15px 30px;
+	white-space:nowrap;
+	background-color:#dae9a5
+}
+.cloudpack .Group {
+	width:900px;
+	margin:0 auto
+}
+.cloudpack h1 {
+	font-size:26px!important
+}
+.cloudpack a {
+	color:#06c
+}
+.cloudpack .Alpha {
+	float:left
+}
+.cloudpack .Gamma {
+	float:right
+}
+.cloudpack .Main-ttl,.cloudpack .Catch,.cloudpack .Logo {
+	overflow:hidden;
+	white-space:nowrap;
+	text-indent:100%
+}
+.cloudpack .Main-ttl {
+	width:900px;
+	height:39px;
+	margin-bottom:25px;
+	background:url('../img/cloudpack/ttl_cpblg.png') no-repeat left top
+}
+.cloudpack .Catch {
+	width:900px;
+	height:33px;
+	margin-bottom:25px;
+	background:url('../img/cloudpack/ttl_cpblg_btm.png') no-repeat left top
+}
+.cloudpack .Logo {
+	width:686px;
+	height:85px;
+	margin:0 auto 35px;
+	background:url('../img/cloudpack/logo_cpblg.png') no-repeat left top
+}
+.cloudpack .Intro {
+	font-size:.875rem;
+	line-height:1.7em;
+	margin-bottom:45px;
+	padding:0 70px;
+	color:#000
+}
+.ie8 .cloudpack .Intro {
+	font-size:14px
+}
+.cloudpack #CpBlgPlan {
+	font-size:.875rem;
+	width:836px;
+	margin:0 auto;
+	color:#000
+}
+.ie8 .cloudpack #CpBlgPlan {
+	font-size:14px
+}
+.cloudpack #CpBlgPlan tr th {
+	width:247px;
+	padding:10px 15px;
+	text-align:left;
+	border-top:1px solid #ccc;
+	background:url('../img/cloudpack/bg_cpblg_plan_odd.png') repeat-y 0 0
+}
+.cloudpack #CpBlgPlan tr td {
+	text-align:center
+}
+.cloudpack #CpBlgPlan tr td.Small {
+	width:249px;
+	padding:10px 15px;
+	border-top:1px solid #3ea8e1;
+	background:url('../img/cloudpack/bg_cpblg_plan_odd.png') repeat-y -277px 0
+}
+.cloudpack #CpBlgPlan tr td.Medium {
+	width:250px;
+	padding:10px 15px;
+	border-top:1px solid #099;
+	background:url('../img/cloudpack/bg_cpblg_plan_odd.png') repeat-y -556px 0
+}
+.cloudpack #CpBlgPlan tr.even th {
+	background:url('../img/cloudpack/bg_cpblg_plan_even.png') repeat-y 0 0
+}
+.cloudpack #CpBlgPlan tr.even td.Small {
+	background:url('../img/cloudpack/bg_cpblg_plan_even.png') repeat-y -277px 0
+}
+.cloudpack #CpBlgPlan tr.even td.Medium {
+	background:url('../img/cloudpack/bg_cpblg_plan_even.png') repeat-y -556px 0
+}
+.cloudpack #CpBlgPlan tr.Last th {
+	border-bottom:1px solid #ccc
+}
+.cloudpack #CpBlgPlan tr.Last td.Small {
+	border-bottom:1px solid #3ea8e1
+}
+.cloudpack #CpBlgPlan tr.Last td.Medium {
+	border-bottom:1px solid #099
+}
+.cloudpack #CpBlgPlan tr.Head th {
+	border-top:0 none;
+	background:0 0
+}
+.cloudpack #CpBlgPlan tr.Head th.Ttl {
+	width:277px;
+	height:126px;
+	padding:0;
+	text-indent:-9999em;
+	background:url('../img/cloudpack/ttl_cpblg_plan.png') no-repeat 50% 0
+}
+.cloudpack #CpBlgPlan tr.Head th.Small {
+	width:279px;
+	padding:0;
+	vertical-align:top;
+	background:url('../img/cloudpack/bg_cpblg_small_head.png') no-repeat left top
+}
+.cloudpack #CpBlgPlan tr.Head th.Medium {
+	width:280px;
+	padding:0;
+	vertical-align:top;
+	background:url('../img/cloudpack/bg_cpblg_medium_head.png') no-repeat left top
+}
+.cloudpack #CpBlgPlan tr.Head .PlanTtl {
+	font-size:17px;
+	font-weight:700;
+	margin:0;
+	padding:25px 0 20px;
+	text-align:center
+}
+.cloudpack #CpBlgPlan tr.Head .Price {
+	font-size:18px;
+	margin:0;
+	text-align:center;
+	color:#fff
+}
+.cloudpack #CpBlgPlan tr.Head .Price span {
+	font-size:15px
+}
+.cloudpack .Note {
+	font-size:93%;
+	margin-top:10px;
+	text-align:center;
+	color:#333
+}
+.cloudpack .ToContact {
+	width:100%;
+	margin:40px 0 50px;
+	text-align:center
+}
+.cloudpack .ToContact.row {
+	margin-bottom:90px
+}
+.cloudpack .ToContact .Contact-btn {
+	display:block;
+	overflow:hidden;
+	width:734px;
+	height:76px;
+	margin:0 auto 15px;
+	white-space:nowrap;
+	text-indent:100%;
+	background:url('../img/cloudpack/btn_cpblg_contact.png') no-repeat 0 0
+}
+.cloudpack .ToContact .Contact-btn:hover {
+	background-position:0 -76px
+}
+.cloudpack .Grid2Col {
+	overflow:hidden;
+	width:100%;
+	margin-bottom:50px
+}
+.cloudpack .Grid2Col .Col {
+	width:390px;
+	text-align:center
+}
+.cloudpack .Grid2Col .Col p {
+	font-size:108%;
+	line-height:1.4em;
+	margin-bottom:1.2em;
+	text-align:left
+}
+.cloudpack .Grid2Col .Alpha h3,.cloudpack .Grid2Col .Gamma h3 {
+	overflow:hidden;
+	height:0;
+	margin-bottom:15px;
+	padding-top:46px;
+	text-align:left
+}
+.cloudpack .Grid2Col .Alpha h3 {
+	width:265px;
+	background:url('../img/cloudpack/ttl_aboutcp.png') no-repeat left top
+}
+.cloudpack .Grid2Col .Gamma h3 {
+	width:200px;
+	background:url('../img/cloudpack/ttl_aboutblg.png') no-repeat left top
+}
+.package #summary h1 {
+	margin-bottom:25px
+}
+.package #summary p {
+	font-size:.875rem;
+	font-weight:700
+}
+.ie8 .package #summary p {
+	font-size:14px
+}
+.package .Item {
+	margin:30px 0
+}
+.package .Item h1 {
+	font-size:1rem;
+	margin-bottom:1em
+}
+.ie8 .package .Item h1 {
+	font-size:16px
+}
+.package .Item p {
+	margin:.5em 0 1em
+}
+.package .Item a {
+	color:#06c
+}
+.package .Item table {
+	width:443px;
+	text-align:center;
+	border:1px solid #999
+}
+.package .Item table th,.package .Item table td {
+	padding:8px;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #999
+}
+.package .Item table td {
+	font-size:.875rem
+}
+.ie8 .package .Item table td {
+	font-size:14px
+}
+.package .Item table th.Last,.package .Item table td.Last {
+	border-bottom:1px solid #999
+}
+.package .Item table th {
+	font-size:.75rem;
+	text-align:justify;
+	background-color:#efefef
+}
+.ie8 .package .Item table th {
+	font-size:12px
+}
+.package .Item table.Package-table {
+	width:950px
+}
+.package .Item table.Package-table td {
+	width:270px;
+	background-image:linear-gradient(#f1fcf3,#fff 60%,#fff 100%)
+}
+.package .Item table.Package-table td:last-child {
+	background-image:linear-gradient(#f5fbfe,#fff 60%,#fff 100%)
+}
+.package .Item table.Package-table td.Version {
+	padding-left:20px;
+	text-align:justify
+}
+.package .Item table.Package-table td.Version strong {
+	font-weight:700;
+	color:#000
+}
+.package .Item table .Plans th {
+	font-weight:700;
+	text-align:center
+}
+.package .Item table .Plans th.Plan {
+	background-color:#dae9a5
+}
+.package .Item table .Plans th.Standard {
+	background-color:#9ddfaf
+}
+.package .Item table .Plans th.Professional {
+	background-color:#c6eaf9
+}
+.package .Item .catalog {
+	width:440px;
+	padding:12px 0;
+	border-radius:8px;
+	background-color:#eaf1f2
+}
+.package .Item .catalog table {
+	width:auto;
+	margin:0 auto;
+	border:0
+}
+.package .Item .catalog table th {
+	border:0 none
+}
+.package .Item .catalog table td {
+	border:0 none;
+	text-align:justify
+}
+.package .Item .FaqLink {
+	width:432px;
+	padding:4px;
+	text-align:center;
+	border-radius:8px;
+	background-color:#efeef0
+}
+.package .Item .FaqLink .Inner {
+	padding:10px 0 20px;
+	border:1px solid #e0dfe3;
+	border-radius:4px;
+	background-color:#fff
+}
+.package .Item .FaqLink .Inner a {
+	color:#333
+}
+.package .Row:after {
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+	content:''
+}
+.ie6 .package .Row,.ie7 .package .Row,.ie8 .package .Row {
+	zoom:1
+}
+.package .Row .Column {
+	float:left;
+	width:443px;
+	padding-left:1px
+}
+.package .Row .Column.Last {
+	float:right;
+	width:440px;
+	padding-left:0
+}

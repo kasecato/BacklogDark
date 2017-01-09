@@ -1,3 +1,4 @@
+@charset 'UTF-8';
 .theme-aqua ._trigger-text, .theme-aqua a {
   color: #00759b
 }
@@ -125,7 +126,7 @@
   fill: #148ba8
 }
 
-.theme-aqua .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-aqua .calendar__button.-nav:hover .icon--arrow-left::before, .theme-aqua .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-aqua .calendar__button.-nav:hover .icon--arrow-right::before, .theme-aqua .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-aqua .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-aqua .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-aqua .see-all__link:hover .icon--arrow-down::before, .theme-aqua .see-all__link:hover .icon--arrow-up::before, .theme-aqua .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-aqua .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-aqua .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-aqua .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-aqua .button--primary:hover .icon--arrow-left::before, .theme-aqua .button--primary:hover .icon--arrow-right::before, .theme-aqua .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-aqua .calendar__button.-nav:hover .icon--arrow-left::before, .theme-aqua .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-aqua .calendar__button.-nav:hover .icon--arrow-right::before, .theme-aqua .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-aqua .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-aqua .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-aqua .see-all__link:hover .icon--arrow-down::before, .theme-aqua .see-all__link:hover .icon--arrow-up::before, .theme-aqua .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-aqua .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-aqua .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-aqua .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #148ba8;
   border-right-color: #148ba8
 }
@@ -457,7 +458,7 @@
   fill: #900017
 }
 
-.theme-azuki .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-azuki .calendar__button.-nav:hover .icon--arrow-left::before, .theme-azuki .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-azuki .calendar__button.-nav:hover .icon--arrow-right::before, .theme-azuki .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-azuki .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-azuki .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-azuki .see-all__link:hover .icon--arrow-down::before, .theme-azuki .see-all__link:hover .icon--arrow-up::before, .theme-azuki .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-azuki .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-azuki .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-azuki .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-azuki .button--primary:hover .icon--arrow-left::before, .theme-azuki .button--primary:hover .icon--arrow-right::before, .theme-azuki .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-azuki .calendar__button.-nav:hover .icon--arrow-left::before, .theme-azuki .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-azuki .calendar__button.-nav:hover .icon--arrow-right::before, .theme-azuki .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-azuki .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-azuki .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-azuki .see-all__link:hover .icon--arrow-down::before, .theme-azuki .see-all__link:hover .icon--arrow-up::before, .theme-azuki .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-azuki .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-azuki .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-azuki .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #900017;
   border-right-color: #900017
 }
@@ -789,7 +790,7 @@
   fill: #393939
 }
 
-.theme-black .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-black .calendar__button.-nav:hover .icon--arrow-left::before, .theme-black .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-black .calendar__button.-nav:hover .icon--arrow-right::before, .theme-black .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-black .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-black .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-black .see-all__link:hover .icon--arrow-down::before, .theme-black .see-all__link:hover .icon--arrow-up::before, .theme-black .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-black .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-black .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-black .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-black .button--primary:hover .icon--arrow-left::before, .theme-black .button--primary:hover .icon--arrow-right::before, .theme-black .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-black .calendar__button.-nav:hover .icon--arrow-left::before, .theme-black .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-black .calendar__button.-nav:hover .icon--arrow-right::before, .theme-black .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-black .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-black .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-black .see-all__link:hover .icon--arrow-down::before, .theme-black .see-all__link:hover .icon--arrow-up::before, .theme-black .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-black .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-black .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-black .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #393939;
   border-right-color: #393939
 }
@@ -1109,7 +1110,7 @@
   fill: #595959
 }
 
-.theme-gray .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-gray .calendar__button.-nav:hover .icon--arrow-left::before, .theme-gray .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-gray .calendar__button.-nav:hover .icon--arrow-right::before, .theme-gray .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-gray .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-gray .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-gray .see-all__link:hover .icon--arrow-down::before, .theme-gray .see-all__link:hover .icon--arrow-up::before, .theme-gray .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-gray .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-gray .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-gray .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-gray .button--primary:hover .icon--arrow-left::before, .theme-gray .button--primary:hover .icon--arrow-right::before, .theme-gray .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-gray .calendar__button.-nav:hover .icon--arrow-left::before, .theme-gray .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-gray .calendar__button.-nav:hover .icon--arrow-right::before, .theme-gray .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-gray .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-gray .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-gray .see-all__link:hover .icon--arrow-down::before, .theme-gray .see-all__link:hover .icon--arrow-up::before, .theme-gray .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-gray .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-gray .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-gray .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #595959;
   border-right-color: #595959
 }
@@ -1425,7 +1426,7 @@
   fill: #de5514
 }
 
-.theme-orange .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-orange .calendar__button.-nav:hover .icon--arrow-left::before, .theme-orange .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-orange .calendar__button.-nav:hover .icon--arrow-right::before, .theme-orange .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-orange .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-orange .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-orange .see-all__link:hover .icon--arrow-down::before, .theme-orange .see-all__link:hover .icon--arrow-up::before, .theme-orange .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-orange .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-orange .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-orange .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-orange .button--primary:hover .icon--arrow-left::before, .theme-orange .button--primary:hover .icon--arrow-right::before, .theme-orange .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-orange .calendar__button.-nav:hover .icon--arrow-left::before, .theme-orange .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-orange .calendar__button.-nav:hover .icon--arrow-right::before, .theme-orange .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-orange .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-orange .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-orange .see-all__link:hover .icon--arrow-down::before, .theme-orange .see-all__link:hover .icon--arrow-up::before, .theme-orange .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-orange .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-orange .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-orange .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #de5514;
   border-right-color: #de5514
 }
@@ -1757,7 +1758,7 @@
   fill: #d04967
 }
 
-.theme-pink .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-pink .calendar__button.-nav:hover .icon--arrow-left::before, .theme-pink .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-pink .calendar__button.-nav:hover .icon--arrow-right::before, .theme-pink .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-pink .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-pink .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-pink .see-all__link:hover .icon--arrow-down::before, .theme-pink .see-all__link:hover .icon--arrow-up::before, .theme-pink .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-pink .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-pink .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-pink .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-pink .button--primary:hover .icon--arrow-left::before, .theme-pink .button--primary:hover .icon--arrow-right::before, .theme-pink .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-pink .calendar__button.-nav:hover .icon--arrow-left::before, .theme-pink .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-pink .calendar__button.-nav:hover .icon--arrow-right::before, .theme-pink .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-pink .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-pink .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-pink .see-all__link:hover .icon--arrow-down::before, .theme-pink .see-all__link:hover .icon--arrow-up::before, .theme-pink .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-pink .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-pink .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-pink .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #d04967;
   border-right-color: #d04967
 }
@@ -2089,7 +2090,7 @@
   fill: #666ca6
 }
 
-.theme-purple .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-purple .calendar__button.-nav:hover .icon--arrow-left::before, .theme-purple .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-purple .calendar__button.-nav:hover .icon--arrow-right::before, .theme-purple .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-purple .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-purple .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-purple .see-all__link:hover .icon--arrow-down::before, .theme-purple .see-all__link:hover .icon--arrow-up::before, .theme-purple .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-purple .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-purple .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-purple .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-purple .button--primary:hover .icon--arrow-left::before, .theme-purple .button--primary:hover .icon--arrow-right::before, .theme-purple .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-purple .calendar__button.-nav:hover .icon--arrow-left::before, .theme-purple .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-purple .calendar__button.-nav:hover .icon--arrow-right::before, .theme-purple .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-purple .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-purple .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-purple .see-all__link:hover .icon--arrow-down::before, .theme-purple .see-all__link:hover .icon--arrow-up::before, .theme-purple .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-purple .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-purple .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-purple .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #666ca6;
   border-right-color: #666ca6
 }
@@ -2421,7 +2422,7 @@
   fill: #d65662
 }
 
-.theme-sakura .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-sakura .calendar__button.-nav:hover .icon--arrow-left::before, .theme-sakura .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-sakura .calendar__button.-nav:hover .icon--arrow-right::before, .theme-sakura .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-sakura .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-sakura .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-sakura .see-all__link:hover .icon--arrow-down::before, .theme-sakura .see-all__link:hover .icon--arrow-up::before, .theme-sakura .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-sakura .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-sakura .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-sakura .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-sakura .button--primary:hover .icon--arrow-left::before, .theme-sakura .button--primary:hover .icon--arrow-right::before, .theme-sakura .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-sakura .calendar__button.-nav:hover .icon--arrow-left::before, .theme-sakura .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-sakura .calendar__button.-nav:hover .icon--arrow-right::before, .theme-sakura .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-sakura .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-sakura .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-sakura .see-all__link:hover .icon--arrow-down::before, .theme-sakura .see-all__link:hover .icon--arrow-up::before, .theme-sakura .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-sakura .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-sakura .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-sakura .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #d65662;
   border-right-color: #d65662
 }
@@ -2753,7 +2754,7 @@
   fill: #23437d
 }
 
-.theme-ultramarine .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-left::before, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-right::before, .theme-ultramarine .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-ultramarine .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-ultramarine .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-ultramarine .see-all__link:hover .icon--arrow-down::before, .theme-ultramarine .see-all__link:hover .icon--arrow-up::before, .theme-ultramarine .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-ultramarine .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-ultramarine .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-ultramarine .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-ultramarine .button--primary:hover .icon--arrow-left::before, .theme-ultramarine .button--primary:hover .icon--arrow-right::before, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-left::before, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-ultramarine .calendar__button.-nav:hover .icon--arrow-right::before, .theme-ultramarine .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-ultramarine .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-ultramarine .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-ultramarine .see-all__link:hover .icon--arrow-down::before, .theme-ultramarine .see-all__link:hover .icon--arrow-up::before, .theme-ultramarine .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-ultramarine .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-ultramarine .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-ultramarine .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #23437d;
   border-right-color: #23437d
 }
@@ -3085,7 +3086,7 @@
   fill: #365959
 }
 
-.theme-army .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-army .calendar__button.-nav:hover .icon--arrow-left::before, .theme-army .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-army .calendar__button.-nav:hover .icon--arrow-right::before, .theme-army .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-army .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-army .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-army .see-all__link:hover .icon--arrow-down::before, .theme-army .see-all__link:hover .icon--arrow-up::before, .theme-army .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-army .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-army .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-army .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-army .button--primary:hover .icon--arrow-left::before, .theme-army .button--primary:hover .icon--arrow-right::before, .theme-army .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-army .calendar__button.-nav:hover .icon--arrow-left::before, .theme-army .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-army .calendar__button.-nav:hover .icon--arrow-right::before, .theme-army .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-army .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-army .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-army .see-all__link:hover .icon--arrow-down::before, .theme-army .see-all__link:hover .icon--arrow-up::before, .theme-army .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-army .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-army .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-army .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #365959;
   border-right-color: #365959
 }
@@ -3417,7 +3418,7 @@
   fill: #5f1b25
 }
 
-.theme-ethnic .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-left::before, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-right::before, .theme-ethnic .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-ethnic .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-ethnic .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-ethnic .see-all__link:hover .icon--arrow-down::before, .theme-ethnic .see-all__link:hover .icon--arrow-up::before, .theme-ethnic .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-ethnic .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-ethnic .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-ethnic .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-ethnic .button--primary:hover .icon--arrow-left::before, .theme-ethnic .button--primary:hover .icon--arrow-right::before, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-left::before, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-ethnic .calendar__button.-nav:hover .icon--arrow-right::before, .theme-ethnic .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-ethnic .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-ethnic .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-ethnic .see-all__link:hover .icon--arrow-down::before, .theme-ethnic .see-all__link:hover .icon--arrow-up::before, .theme-ethnic .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-ethnic .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-ethnic .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-ethnic .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #5f1b25;
   border-right-color: #5f1b25
 }
@@ -3749,7 +3750,7 @@
   fill: #775244
 }
 
-.theme-leopard .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-leopard .calendar__button.-nav:hover .icon--arrow-left::before, .theme-leopard .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-leopard .calendar__button.-nav:hover .icon--arrow-right::before, .theme-leopard .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-leopard .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-leopard .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-leopard .see-all__link:hover .icon--arrow-down::before, .theme-leopard .see-all__link:hover .icon--arrow-up::before, .theme-leopard .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-leopard .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-leopard .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-leopard .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-leopard .button--primary:hover .icon--arrow-left::before, .theme-leopard .button--primary:hover .icon--arrow-right::before, .theme-leopard .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-leopard .calendar__button.-nav:hover .icon--arrow-left::before, .theme-leopard .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-leopard .calendar__button.-nav:hover .icon--arrow-right::before, .theme-leopard .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-leopard .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-leopard .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-leopard .see-all__link:hover .icon--arrow-down::before, .theme-leopard .see-all__link:hover .icon--arrow-up::before, .theme-leopard .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-leopard .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-leopard .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-leopard .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #775244;
   border-right-color: #775244
 }
@@ -4081,7 +4082,7 @@
   fill: #d04967
 }
 
-.theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-left::before, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-right::before, .theme-pink-leopard .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-pink-leopard .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-pink-leopard .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-pink-leopard .see-all__link:hover .icon--arrow-down::before, .theme-pink-leopard .see-all__link:hover .icon--arrow-up::before, .theme-pink-leopard .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-pink-leopard .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-pink-leopard .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-pink-leopard .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-pink-leopard .button--primary:hover .icon--arrow-left::before, .theme-pink-leopard .button--primary:hover .icon--arrow-right::before, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-left::before, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-pink-leopard .calendar__button.-nav:hover .icon--arrow-right::before, .theme-pink-leopard .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-pink-leopard .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-pink-leopard .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-pink-leopard .see-all__link:hover .icon--arrow-down::before, .theme-pink-leopard .see-all__link:hover .icon--arrow-up::before, .theme-pink-leopard .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-pink-leopard .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-pink-leopard .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-pink-leopard .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #d04967;
   border-right-color: #d04967
 }
@@ -4413,7 +4414,7 @@
   fill: #1f2e4f
 }
 
-.theme-acrylic .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-left::before, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-right::before, .theme-acrylic .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-acrylic .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-acrylic .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-acrylic .see-all__link:hover .icon--arrow-down::before, .theme-acrylic .see-all__link:hover .icon--arrow-up::before, .theme-acrylic .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-acrylic .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-acrylic .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-acrylic .title-group__title.-clickable:hover .icon--arrow-up::before {
+.theme-acrylic .button--primary:hover .icon--arrow-left::before, .theme-acrylic .button--primary:hover .icon--arrow-right::before, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-left.-double::after, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-left::before, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-right.-double::after, .theme-acrylic .calendar__button.-nav:hover .icon--arrow-right::before, .theme-acrylic .comment-editor__attach-file-button:hover .icon--arrow-down::before, .theme-acrylic .comment-editor__attach-file-button:hover .icon--arrow-up::before, .theme-acrylic .comment-editor__expand-button:hover .icon--arrow-up::before, .theme-acrylic .see-all__link:hover .icon--arrow-down::before, .theme-acrylic .see-all__link:hover .icon--arrow-up::before, .theme-acrylic .title-group__inline-title.-clickable:hover .icon--arrow-down::before, .theme-acrylic .title-group__inline-title.-clickable:hover .icon--arrow-up::before, .theme-acrylic .title-group__title.-clickable:hover .icon--arrow-down::before, .theme-acrylic .title-group__title.-clickable:hover .icon--arrow-up::before {
   border-top-color: #1f2e4f;
   border-right-color: #1f2e4f
 }
@@ -4644,6 +4645,11 @@
   box-shadow: 0 0 3px #00759b
 }
 
+.theme-aqua .child-issues-table tbody tr.is_current, .theme-aqua .comment-editor__preview-menu-item:hover {
+  border-color: #148ba8;
+  background-color: #ebf0f2
+}
+
 .theme-aqua .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-aqua .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-aqua .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-aqua .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #148ba8
 }
@@ -4652,7 +4658,7 @@
   background: 0 0
 }
 
-.theme-aqua .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-aqua .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-aqua .copy-trigger:hover svg.icon, .theme-aqua .open-issue-dialog-trigger:hover svg.icon, .theme-aqua .title__sub-line svg.icon:hover, .theme-aqua .user-actions-link.is_opened svg.icon {
+.theme-aqua .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-aqua .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-aqua .copy-trigger:hover svg.icon, .theme-aqua .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-aqua .open-issue-dialog-trigger:hover svg.icon, .theme-aqua .title__sub-line svg.icon:hover, .theme-aqua .user-actions-link.is_opened svg.icon {
   fill: #148ba8
 }
 
@@ -4671,10 +4677,14 @@
 
 .theme-aqua .file-upload__add-drag-area.is_drag-enter {
   border-color: #00759b;
-  background-color: #ebf0f2
+  background-color: #dfeaf2
 }
 
-.theme-aqua .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-aqua .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-aqua .upload-item__progress-bar-status {
+.theme-aqua .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #3b9dbd
+}
+
+.theme-aqua .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-aqua .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #3b9dbd
 }
 
@@ -4894,6 +4904,11 @@
   box-shadow: 0 0 3px #960920
 }
 
+.theme-azuki .child-issues-table tbody tr.is_current, .theme-azuki .comment-editor__preview-menu-item:hover {
+  border-color: #900017;
+  background-color: #f1e8ea
+}
+
 .theme-azuki .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-azuki .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-azuki .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-azuki .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #900017
 }
@@ -4902,7 +4917,7 @@
   background: 0 0
 }
 
-.theme-azuki .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-azuki .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-azuki .copy-trigger:hover svg.icon, .theme-azuki .open-issue-dialog-trigger:hover svg.icon, .theme-azuki .title__sub-line svg.icon:hover, .theme-azuki .user-actions-link.is_opened svg.icon {
+.theme-azuki .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-azuki .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-azuki .copy-trigger:hover svg.icon, .theme-azuki .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-azuki .open-issue-dialog-trigger:hover svg.icon, .theme-azuki .title__sub-line svg.icon:hover, .theme-azuki .user-actions-link.is_opened svg.icon {
   fill: #900017
 }
 
@@ -4917,10 +4932,14 @@
 
 .theme-azuki .file-upload__add-drag-area.is_drag-enter {
   border-color: #960920;
-  background-color: #f1e8ea
+  background-color: #efe4e6
 }
 
-.theme-azuki .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-azuki .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-azuki .upload-item__progress-bar-status {
+.theme-azuki .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #ab2a3e
+}
+
+.theme-azuki .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-azuki .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #ab2a3e
 }
 
@@ -5120,7 +5139,7 @@
   background-color: #e5e5e5
 }
 
-.theme-black .calendar__day.is_active::after, .theme-black .calendar__day.is_selected::after, .theme-black .upload-item__progress-bar-status {
+.theme-black .calendar__day.is_active::after, .theme-black .calendar__day.is_selected::after {
   background-color: #393939
 }
 
@@ -5134,6 +5153,11 @@
   box-shadow: 0 0 3px #00836b
 }
 
+.theme-black .child-issues-table tbody tr.is_current, .theme-black .comment-editor__preview-menu-item:hover {
+  border-color: #393939;
+  background-color: #f0f0f0
+}
+
 .theme-black .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-black .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-black .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-black .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #393939
 }
@@ -5142,7 +5166,7 @@
   background: 0 0
 }
 
-.theme-black .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-black .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-black .copy-trigger:hover svg.icon, .theme-black .open-issue-dialog-trigger:hover svg.icon, .theme-black .title__sub-line svg.icon:hover, .theme-black .user-actions-link.is_opened svg.icon {
+.theme-black .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-black .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-black .copy-trigger:hover svg.icon, .theme-black .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-black .open-issue-dialog-trigger:hover svg.icon, .theme-black .title__sub-line svg.icon:hover, .theme-black .user-actions-link.is_opened svg.icon {
   fill: #393939
 }
 
@@ -5157,7 +5181,11 @@
 
 .theme-black .file-upload__add-drag-area.is_drag-enter {
   border-color: #00836b;
-  background-color: #f0f0f0
+  background-color: #e5e5e5
+}
+
+.theme-black .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #393939
 }
 
 .theme-black .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-black .filter-nav.-wiki-tag .filter-nav__link:hover {
@@ -5352,7 +5380,7 @@
   background-color: #e5e5e5
 }
 
-.theme-gray .calendar__day.is_active::after, .theme-gray .calendar__day.is_selected::after, .theme-gray .upload-item__progress-bar-status {
+.theme-gray .calendar__day.is_active::after, .theme-gray .calendar__day.is_selected::after {
   background-color: #595959
 }
 
@@ -5366,6 +5394,11 @@
   box-shadow: 0 0 3px #00836b
 }
 
+.theme-gray .child-issues-table tbody tr.is_current, .theme-gray .comment-editor__preview-menu-item:hover {
+  border-color: #595959;
+  background-color: #f0f0f0
+}
+
 .theme-gray .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-gray .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-gray .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-gray .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #595959
 }
@@ -5374,7 +5407,7 @@
   background: 0 0
 }
 
-.theme-gray .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-gray .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-gray .copy-trigger:hover svg.icon, .theme-gray .open-issue-dialog-trigger:hover svg.icon, .theme-gray .title__sub-line svg.icon:hover, .theme-gray .user-actions-link.is_opened svg.icon {
+.theme-gray .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-gray .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-gray .copy-trigger:hover svg.icon, .theme-gray .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-gray .open-issue-dialog-trigger:hover svg.icon, .theme-gray .title__sub-line svg.icon:hover, .theme-gray .user-actions-link.is_opened svg.icon {
   fill: #595959
 }
 
@@ -5385,7 +5418,11 @@
 
 .theme-gray .file-upload__add-drag-area.is_drag-enter {
   border-color: #00836b;
-  background-color: #f0f0f0
+  background-color: #e5e5e5
+}
+
+.theme-gray .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #595959
 }
 
 .theme-gray .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-gray .filter-nav.-wiki-tag .filter-nav__link:hover {
@@ -5594,6 +5631,11 @@
   box-shadow: 0 0 3px #c14524
 }
 
+.theme-orange .child-issues-table tbody tr.is_current, .theme-orange .comment-editor__preview-menu-item:hover {
+  border-color: #de5514;
+  background-color: #f7ebe9
+}
+
 .theme-orange .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-orange .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-orange .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-orange .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #de5514
 }
@@ -5602,7 +5644,7 @@
   background: 0 0
 }
 
-.theme-orange .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-orange .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-orange .copy-trigger:hover svg.icon, .theme-orange .open-issue-dialog-trigger:hover svg.icon, .theme-orange .title__sub-line svg.icon:hover, .theme-orange .user-actions-link.is_opened svg.icon {
+.theme-orange .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-orange .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-orange .copy-trigger:hover svg.icon, .theme-orange .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-orange .open-issue-dialog-trigger:hover svg.icon, .theme-orange .title__sub-line svg.icon:hover, .theme-orange .user-actions-link.is_opened svg.icon {
   fill: #de5514
 }
 
@@ -5617,10 +5659,14 @@
 
 .theme-orange .file-upload__add-drag-area.is_drag-enter {
   border-color: #c14524;
-  background-color: #f7ebe9
+  background-color: #f3e6e2
 }
 
-.theme-orange .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-orange .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-orange .upload-item__progress-bar-status {
+.theme-orange .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #e87758
+}
+
+.theme-orange .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-orange .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #e87758
 }
 
@@ -5834,6 +5880,11 @@
   box-shadow: 0 0 3px #ca2a4e
 }
 
+.theme-pink .comment-editor__preview-menu-item:hover {
+  border-color: #d04967;
+  background-color: #f7ebef
+}
+
 .theme-pink .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-pink .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-pink .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-pink .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #d04967
 }
@@ -5842,7 +5893,7 @@
   background: 0 0
 }
 
-.theme-pink .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-pink .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-pink .copy-trigger:hover svg.icon, .theme-pink .open-issue-dialog-trigger:hover svg.icon, .theme-pink .title__sub-line svg.icon:hover, .theme-pink .user-actions-link.is_opened svg.icon {
+.theme-pink .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-pink .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-pink .copy-trigger:hover svg.icon, .theme-pink .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-pink .open-issue-dialog-trigger:hover svg.icon, .theme-pink .title__sub-line svg.icon:hover, .theme-pink .user-actions-link.is_opened svg.icon {
   fill: #d04967
 }
 
@@ -5857,10 +5908,14 @@
 
 .theme-pink .file-upload__add-drag-area.is_drag-enter {
   border-color: #ca2a4e;
-  background-color: #f7ebef
+  background-color: #f7e4eb
 }
 
-.theme-pink .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-pink .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-pink .upload-item__progress-bar-status {
+.theme-pink .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #e07b9a
+}
+
+.theme-pink .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-pink .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #e07b9a
 }
 
@@ -6074,6 +6129,11 @@
   box-shadow: 0 0 3px #764797
 }
 
+.theme-purple .comment-editor__preview-menu-item:hover {
+  border-color: #666ca6;
+  background-color: #f6f2f9
+}
+
 .theme-purple .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-purple .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-purple .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-purple .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #666ca6
 }
@@ -6082,7 +6142,7 @@
   background: 0 0
 }
 
-.theme-purple .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-purple .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-purple .copy-trigger:hover svg.icon, .theme-purple .open-issue-dialog-trigger:hover svg.icon, .theme-purple .title__sub-line svg.icon:hover, .theme-purple .user-actions-link.is_opened svg.icon {
+.theme-purple .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-purple .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-purple .copy-trigger:hover svg.icon, .theme-purple .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-purple .open-issue-dialog-trigger:hover svg.icon, .theme-purple .title__sub-line svg.icon:hover, .theme-purple .user-actions-link.is_opened svg.icon {
   fill: #666ca6
 }
 
@@ -6097,10 +6157,14 @@
 
 .theme-purple .file-upload__add-drag-area.is_drag-enter {
   border-color: #764797;
-  background-color: #f6f2f9
+  background-color: #ebe7ef
 }
 
-.theme-purple .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-purple .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-purple .upload-item__progress-bar-status {
+.theme-purple .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #868cb7
+}
+
+.theme-purple .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-purple .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #868cb7
 }
 
@@ -6314,6 +6378,11 @@
   box-shadow: 0 0 3px #d6393d
 }
 
+.theme-sakura .comment-editor__preview-menu-item:hover {
+  border-color: #d65662;
+  background-color: #f5e9ec
+}
+
 .theme-sakura .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-sakura .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-sakura .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-sakura .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #d65662
 }
@@ -6322,7 +6391,7 @@
   background: 0 0
 }
 
-.theme-sakura .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-sakura .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-sakura .copy-trigger:hover svg.icon, .theme-sakura .open-issue-dialog-trigger:hover svg.icon, .theme-sakura .title__sub-line svg.icon:hover, .theme-sakura .user-actions-link.is_opened svg.icon {
+.theme-sakura .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-sakura .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-sakura .copy-trigger:hover svg.icon, .theme-sakura .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-sakura .open-issue-dialog-trigger:hover svg.icon, .theme-sakura .title__sub-line svg.icon:hover, .theme-sakura .user-actions-link.is_opened svg.icon {
   fill: #d65662
 }
 
@@ -6337,10 +6406,14 @@
 
 .theme-sakura .file-upload__add-drag-area.is_drag-enter {
   border-color: #d6393d;
-  background-color: #f5e9ec
+  background-color: #f1e5e6
 }
 
-.theme-sakura .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-sakura .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-sakura .upload-item__progress-bar-status {
+.theme-sakura .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #e77983
+}
+
+.theme-sakura .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-sakura .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #e77983
 }
 
@@ -6554,6 +6627,11 @@
   box-shadow: 0 0 3px #113993
 }
 
+.theme-ultramarine .comment-editor__preview-menu-item:hover {
+  border-color: #23437d;
+  background-color: #ebf2fa
+}
+
 .theme-ultramarine .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-ultramarine .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-ultramarine .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-ultramarine .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #23437d
 }
@@ -6562,7 +6640,7 @@
   background: 0 0
 }
 
-.theme-ultramarine .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-ultramarine .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-ultramarine .copy-trigger:hover svg.icon, .theme-ultramarine .open-issue-dialog-trigger:hover svg.icon, .theme-ultramarine .title__sub-line svg.icon:hover, .theme-ultramarine .user-actions-link.is_opened svg.icon {
+.theme-ultramarine .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-ultramarine .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-ultramarine .copy-trigger:hover svg.icon, .theme-ultramarine .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-ultramarine .open-issue-dialog-trigger:hover svg.icon, .theme-ultramarine .title__sub-line svg.icon:hover, .theme-ultramarine .user-actions-link.is_opened svg.icon {
   fill: #23437d
 }
 
@@ -6577,10 +6655,14 @@
 
 .theme-ultramarine .file-upload__add-drag-area.is_drag-enter {
   border-color: #113993;
-  background-color: #ebf2fa
+  background-color: #dde5ed
 }
 
-.theme-ultramarine .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-ultramarine .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-ultramarine .upload-item__progress-bar-status {
+.theme-ultramarine .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #3d5791
+}
+
+.theme-ultramarine .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-ultramarine .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #3d5791
 }
 
@@ -6794,6 +6876,11 @@
   box-shadow: 0 0 3px #00836b
 }
 
+.theme-army .comment-editor__preview-menu-item:hover {
+  border-color: #365959;
+  background-color: #e9f0f0
+}
+
 .theme-army .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-army .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-army .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-army .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #365959
 }
@@ -6802,7 +6889,7 @@
   background: 0 0
 }
 
-.theme-army .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-army .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-army .copy-trigger:hover svg.icon, .theme-army .open-issue-dialog-trigger:hover svg.icon, .theme-army .title__sub-line svg.icon:hover, .theme-army .user-actions-link.is_opened svg.icon {
+.theme-army .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-army .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-army .copy-trigger:hover svg.icon, .theme-army .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-army .open-issue-dialog-trigger:hover svg.icon, .theme-army .title__sub-line svg.icon:hover, .theme-army .user-actions-link.is_opened svg.icon {
   fill: #365959
 }
 
@@ -6817,10 +6904,14 @@
 
 .theme-army .file-upload__add-drag-area.is_drag-enter {
   border-color: #00836b;
-  background-color: #e9f0f0
+  background-color: #ddeaea
 }
 
-.theme-army .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-army .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-army .upload-item__progress-bar-status {
+.theme-army .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #486969
+}
+
+.theme-army .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-army .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #486969
 }
 
@@ -7034,6 +7125,11 @@
   box-shadow: 0 0 3px #821323
 }
 
+.theme-ethnic .comment-editor__preview-menu-item:hover {
+  border-color: #5f1b25;
+  background-color: #f1e8ea
+}
+
 .theme-ethnic .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-ethnic .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-ethnic .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-ethnic .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #5f1b25
 }
@@ -7042,7 +7138,7 @@
   background: 0 0
 }
 
-.theme-ethnic .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-ethnic .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-ethnic .copy-trigger:hover svg.icon, .theme-ethnic .open-issue-dialog-trigger:hover svg.icon, .theme-ethnic .title__sub-line svg.icon:hover, .theme-ethnic .user-actions-link.is_opened svg.icon {
+.theme-ethnic .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-ethnic .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-ethnic .copy-trigger:hover svg.icon, .theme-ethnic .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-ethnic .open-issue-dialog-trigger:hover svg.icon, .theme-ethnic .title__sub-line svg.icon:hover, .theme-ethnic .user-actions-link.is_opened svg.icon {
   fill: #5f1b25
 }
 
@@ -7057,10 +7153,14 @@
 
 .theme-ethnic .file-upload__add-drag-area.is_drag-enter {
   border-color: #821323;
-  background-color: #f1e8ea
+  background-color: #efe4e6
 }
 
-.theme-ethnic .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-ethnic .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-ethnic .upload-item__progress-bar-status {
+.theme-ethnic .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #7a2b36
+}
+
+.theme-ethnic .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-ethnic .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #7a2b36
 }
 
@@ -7274,6 +7374,11 @@
   box-shadow: 0 0 3px #8a300f
 }
 
+.theme-leopard .comment-editor__preview-menu-item:hover {
+  border-color: #775244;
+  background-color: #f2eae5
+}
+
 .theme-leopard .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-leopard .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-leopard .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-leopard .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #775244
 }
@@ -7282,7 +7387,7 @@
   background: 0 0
 }
 
-.theme-leopard .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-leopard .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-leopard .copy-trigger:hover svg.icon, .theme-leopard .open-issue-dialog-trigger:hover svg.icon, .theme-leopard .title__sub-line svg.icon:hover, .theme-leopard .user-actions-link.is_opened svg.icon {
+.theme-leopard .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-leopard .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-leopard .copy-trigger:hover svg.icon, .theme-leopard .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-leopard .open-issue-dialog-trigger:hover svg.icon, .theme-leopard .title__sub-line svg.icon:hover, .theme-leopard .user-actions-link.is_opened svg.icon {
   fill: #775244
 }
 
@@ -7297,10 +7402,14 @@
 
 .theme-leopard .file-upload__add-drag-area.is_drag-enter {
   border-color: #8a300f;
-  background-color: #f2eae5
+  background-color: #f1e7e2
 }
 
-.theme-leopard .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-leopard .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-leopard .upload-item__progress-bar-status {
+.theme-leopard .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #8d6755
+}
+
+.theme-leopard .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-leopard .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #8d6755
 }
 
@@ -7514,6 +7623,11 @@
   box-shadow: 0 0 3px #ca2a4e
 }
 
+.theme-pink .child-issues-table tbody tr.is_current, .theme-pink-leopard .comment-editor__preview-menu-item:hover {
+  border-color: #d04967;
+  background-color: #f7ebef
+}
+
 .theme-pink-leopard .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-pink-leopard .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-pink-leopard .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-pink-leopard .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #d04967
 }
@@ -7522,7 +7636,7 @@
   background: 0 0
 }
 
-.theme-pink-leopard .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-pink-leopard .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-pink-leopard .copy-trigger:hover svg.icon, .theme-pink-leopard .open-issue-dialog-trigger:hover svg.icon, .theme-pink-leopard .title__sub-line svg.icon:hover, .theme-pink-leopard .user-actions-link.is_opened svg.icon {
+.theme-pink-leopard .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-pink-leopard .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-pink-leopard .copy-trigger:hover svg.icon, .theme-pink-leopard .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-pink-leopard .open-issue-dialog-trigger:hover svg.icon, .theme-pink-leopard .title__sub-line svg.icon:hover, .theme-pink-leopard .user-actions-link.is_opened svg.icon {
   fill: #d04967
 }
 
@@ -7537,10 +7651,14 @@
 
 .theme-pink-leopard .file-upload__add-drag-area.is_drag-enter {
   border-color: #ca2a4e;
-  background-color: #f7ebef
+  background-color: #f7e4eb
 }
 
-.theme-pink-leopard .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-pink-leopard .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-pink-leopard .upload-item__progress-bar-status {
+.theme-pink-leopard .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #e07b9a
+}
+
+.theme-pink-leopard .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-pink-leopard .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #e07b9a
 }
 
@@ -7754,6 +7872,11 @@
   box-shadow: 0 0 3px #113993
 }
 
+.theme-acrylic .comment-editor__preview-menu-item:hover {
+  border-color: #1f2e4f;
+  background-color: #ebf2fa
+}
+
 .theme-acrylic .comment-editor__tools .icon-button--inverse.is_active:focus, .theme-acrylic .comment-editor__tools .icon-button--inverse.is_active:hover, .theme-acrylic .comment-editor__tools .icon-button--inverse:focus svg.icon, .theme-acrylic .comment-editor__tools .icon-button--inverse:hover svg.icon {
   fill: #1f2e4f
 }
@@ -7762,7 +7885,7 @@
   background: 0 0
 }
 
-.theme-acrylic .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-acrylic .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-acrylic .copy-trigger:hover svg.icon, .theme-acrylic .open-issue-dialog-trigger:hover svg.icon, .theme-acrylic .title__sub-line svg.icon:hover, .theme-acrylic .user-actions-link.is_opened svg.icon {
+.theme-acrylic .comment-editor.-fixed-footer .comment-editor__expand-button:hover .comment-editor__expand-button-icon svg.icon, .theme-acrylic .comment-editor__tools .icon-button--inverse.is_active svg.icon, .theme-acrylic .copy-trigger:hover svg.icon, .theme-acrylic .file-upload__add-drag-area.is_drag-enter svg.icon, .theme-acrylic .open-issue-dialog-trigger:hover svg.icon, .theme-acrylic .title__sub-line svg.icon:hover, .theme-acrylic .user-actions-link.is_opened svg.icon {
   fill: #1f2e4f
 }
 
@@ -7777,10 +7900,14 @@
 
 .theme-acrylic .file-upload__add-drag-area.is_drag-enter {
   border-color: #113993;
-  background-color: #ebf2fa
+  background-color: #dde5ed
 }
 
-.theme-acrylic .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-acrylic .filter-nav.-wiki-tag .filter-nav__link:hover, .theme-acrylic .upload-item__progress-bar-status {
+.theme-acrylic .upload-item.-simple .upload-item__image-wrapper::before {
+  border-color: #2b406c
+}
+
+.theme-acrylic .filter-nav.-wiki-tag .filter-nav__link.is_active, .theme-acrylic .filter-nav.-wiki-tag .filter-nav__link:hover {
   background-color: #2b406c
 }
 
@@ -8031,13 +8158,8 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-aqua .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-aqua .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-aqua .tab-buttons__link.is_active svg.icon, .theme-aqua .tab-buttons__link:hover svg.icon {
+.theme-aqua .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-aqua .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-aqua .multiple-issues-header__back:hover svg.icon, .theme-aqua .tab-buttons__link.is_active svg.icon, .theme-aqua .tab-buttons__link:hover svg.icon {
   fill: #148ba8
-}
-
-.theme-aqua .child-issues-table tbody tr.is_current {
-  border-color: #148ba8;
-  background-color: #ebf0f2
 }
 
 .theme-aqua .child-issues-table tbody tr.is_current .child-issues-table__pointer::after {
@@ -8069,6 +8191,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #3b9dbd
 }
 
+.theme-aqua .multiple-issues-header {
+  background-color: #ebf0f2
+}
+
 .theme-aqua .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #148ba8
@@ -8095,13 +8221,8 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-azuki .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-azuki .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-azuki .tab-buttons__link.is_active svg.icon, .theme-azuki .tab-buttons__link:hover svg.icon {
+.theme-azuki .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-azuki .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-azuki .multiple-issues-header__back:hover svg.icon, .theme-azuki .tab-buttons__link.is_active svg.icon, .theme-azuki .tab-buttons__link:hover svg.icon {
   fill: #900017
-}
-
-.theme-azuki .child-issues-table tbody tr.is_current {
-  border-color: #900017;
-  background-color: #f1e8ea
 }
 
 .theme-azuki .child-issues-table tbody tr.is_current .child-issues-table__pointer::before {
@@ -8133,6 +8254,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #ab2a3e
 }
 
+.theme-azuki .multiple-issues-header {
+  background-color: #f1e8ea
+}
+
 .theme-azuki .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #900017
@@ -8151,7 +8276,7 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #393939
 }
 
-.theme-black tr.child-issue-row > td, .theme-black tr.is_child-issues-opened > td, .theme-gray tr.child-issue-row > td, .theme-gray tr.is_child-issues-opened > td {
+.theme-black tr.child-issue-row > td, .theme-black tr.is_child-issues-opened > td {
   background-color: #f0f0f0
 }
 
@@ -8163,13 +8288,8 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-black .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-black .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-black .tab-buttons__link.is_active svg.icon, .theme-black .tab-buttons__link:hover svg.icon {
+.theme-black .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-black .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-black .multiple-issues-header__back:hover svg.icon, .theme-black .tab-buttons__link.is_active svg.icon, .theme-black .tab-buttons__link:hover svg.icon {
   fill: #393939
-}
-
-.theme-black .child-issues-table tbody tr.is_current {
-  border-color: #393939;
-  background-color: #f0f0f0
 }
 
 .theme-black .child-issues-table tbody tr.is_current .child-issues-table__pointer::before {
@@ -8201,6 +8321,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #393939
 }
 
+.theme-black .multiple-issues-header, .theme-gray tr.child-issue-row > td, .theme-gray tr.is_child-issues-opened > td {
+  background-color: #f0f0f0
+}
+
 .theme-black .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #393939
@@ -8227,13 +8351,8 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-gray .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-gray .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-gray .tab-buttons__link.is_active svg.icon, .theme-gray .tab-buttons__link:hover svg.icon {
+.theme-gray .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-gray .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-gray .multiple-issues-header__back:hover svg.icon, .theme-gray .tab-buttons__link.is_active svg.icon, .theme-gray .tab-buttons__link:hover svg.icon {
   fill: #595959
-}
-
-.theme-gray .child-issues-table tbody tr.is_current {
-  border-color: #595959;
-  background-color: #f0f0f0
 }
 
 .theme-gray .child-issues-table tbody tr.is_current .child-issues-table__pointer::before {
@@ -8263,6 +8382,10 @@ body.theme-acrylic .project-nav__back {
 
 .theme-gray .jqtree-toggler.jqtree-closed > .jqtree-toggler-icon {
   border-left-color: #595959
+}
+
+.theme-gray .multiple-issues-header {
+  background-color: #f0f0f0
 }
 
 .theme-gray .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
@@ -8295,13 +8418,8 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-orange .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-orange .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-orange .tab-buttons__link.is_active svg.icon, .theme-orange .tab-buttons__link:hover svg.icon {
+.theme-orange .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-orange .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-orange .multiple-issues-header__back:hover svg.icon, .theme-orange .tab-buttons__link.is_active svg.icon, .theme-orange .tab-buttons__link:hover svg.icon {
   fill: #de5514
-}
-
-.theme-orange .child-issues-table tbody tr.is_current {
-  border-color: #de5514;
-  background-color: #f7ebe9
 }
 
 .theme-orange .child-issues-table tbody tr.is_current .child-issues-table__pointer::before {
@@ -8331,6 +8449,10 @@ body.theme-acrylic .project-nav__back {
 
 .theme-orange .jqtree-toggler.jqtree-closed > .jqtree-toggler-icon {
   border-left-color: #e87758
+}
+
+.theme-orange .multiple-issues-header {
+  background-color: #f7ebe9
 }
 
 .theme-orange .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
@@ -8363,13 +8485,8 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-pink .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-pink .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-pink .tab-buttons__link.is_active svg.icon, .theme-pink .tab-buttons__link:hover svg.icon {
+.theme-pink .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-pink .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-pink .multiple-issues-header__back:hover svg.icon, .theme-pink .tab-buttons__link.is_active svg.icon, .theme-pink .tab-buttons__link:hover svg.icon {
   fill: #d04967
-}
-
-.theme-pink .child-issues-table tbody tr.is_current {
-  border-color: #d04967;
-  background-color: #f7ebef
 }
 
 .theme-pink .child-issues-table tbody tr.is_current .child-issues-table__pointer::before {
@@ -8399,6 +8516,10 @@ body.theme-acrylic .project-nav__back {
 
 .theme-pink .jqtree-toggler.jqtree-closed > .jqtree-toggler-icon {
   border-left-color: #e07b9a
+}
+
+.theme-pink .multiple-issues-header {
+  background-color: #f7ebef
 }
 
 .theme-pink .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
@@ -8435,7 +8556,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-purple .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-purple .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-purple .tab-buttons__link.is_active svg.icon, .theme-purple .tab-buttons__link:hover svg.icon {
+.theme-purple .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-purple .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-purple .multiple-issues-header__back:hover svg.icon, .theme-purple .tab-buttons__link.is_active svg.icon, .theme-purple .tab-buttons__link:hover svg.icon {
   fill: #666ca6
 }
 
@@ -8478,6 +8599,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #868cb7
 }
 
+.theme-purple .multiple-issues-header {
+  background-color: #f6f2f9
+}
+
 .theme-purple .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #666ca6
@@ -8512,7 +8637,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-sakura .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-sakura .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-sakura .tab-buttons__link.is_active svg.icon, .theme-sakura .tab-buttons__link:hover svg.icon {
+.theme-sakura .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-sakura .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-sakura .multiple-issues-header__back:hover svg.icon, .theme-sakura .tab-buttons__link.is_active svg.icon, .theme-sakura .tab-buttons__link:hover svg.icon {
   fill: #d65662
 }
 
@@ -8555,6 +8680,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #e77983
 }
 
+.theme-sakura .multiple-issues-header {
+  background-color: #f5e9ec
+}
+
 .theme-sakura .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #d65662
@@ -8589,7 +8718,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-ultramarine .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-ultramarine .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-ultramarine .tab-buttons__link.is_active svg.icon, .theme-ultramarine .tab-buttons__link:hover svg.icon {
+.theme-ultramarine .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-ultramarine .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-ultramarine .multiple-issues-header__back:hover svg.icon, .theme-ultramarine .tab-buttons__link.is_active svg.icon, .theme-ultramarine .tab-buttons__link:hover svg.icon {
   fill: #23437d
 }
 
@@ -8632,6 +8761,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #3d5791
 }
 
+.theme-ultramarine .multiple-issues-header {
+  background-color: #ebf2fa
+}
+
 .theme-ultramarine .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #23437d
@@ -8666,7 +8799,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-army .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-army .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-army .tab-buttons__link.is_active svg.icon, .theme-army .tab-buttons__link:hover svg.icon {
+.theme-army .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-army .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-army .multiple-issues-header__back:hover svg.icon, .theme-army .tab-buttons__link.is_active svg.icon, .theme-army .tab-buttons__link:hover svg.icon {
   fill: #365959
 }
 
@@ -8709,6 +8842,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #486969
 }
 
+.theme-army .multiple-issues-header {
+  background-color: #e9f0f0
+}
+
 .theme-army .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #365959
@@ -8743,7 +8880,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-ethnic .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-ethnic .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-ethnic .tab-buttons__link.is_active svg.icon, .theme-ethnic .tab-buttons__link:hover svg.icon {
+.theme-ethnic .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-ethnic .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-ethnic .multiple-issues-header__back:hover svg.icon, .theme-ethnic .tab-buttons__link.is_active svg.icon, .theme-ethnic .tab-buttons__link:hover svg.icon {
   fill: #5f1b25
 }
 
@@ -8786,6 +8923,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #7a2b36
 }
 
+.theme-ethnic .multiple-issues-header {
+  background-color: #f1e8ea
+}
+
 .theme-ethnic .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #5f1b25
@@ -8820,7 +8961,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-leopard .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-leopard .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-leopard .tab-buttons__link.is_active svg.icon, .theme-leopard .tab-buttons__link:hover svg.icon {
+.theme-leopard .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-leopard .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-leopard .multiple-issues-header__back:hover svg.icon, .theme-leopard .tab-buttons__link.is_active svg.icon, .theme-leopard .tab-buttons__link:hover svg.icon {
   fill: #775244
 }
 
@@ -8863,6 +9004,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #8d6755
 }
 
+.theme-leopard .multiple-issues-header {
+  background-color: #f2eae5
+}
+
 .theme-leopard .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #775244
@@ -8897,7 +9042,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-pink-leopard .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-pink-leopard .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-pink-leopard .tab-buttons__link.is_active svg.icon, .theme-pink-leopard .tab-buttons__link:hover svg.icon {
+.theme-pink-leopard .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-pink-leopard .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-pink-leopard .multiple-issues-header__back:hover svg.icon, .theme-pink-leopard .tab-buttons__link.is_active svg.icon, .theme-pink-leopard .tab-buttons__link:hover svg.icon {
   fill: #d04967
 }
 
@@ -8940,6 +9085,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #e07b9a
 }
 
+.theme-pink-leopard .multiple-issues-header {
+  background-color: #f7ebef
+}
+
 .theme-pink-leopard .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #d04967
@@ -8974,7 +9123,7 @@ body.theme-acrylic .project-nav__back {
   color: #222
 }
 
-.theme-acrylic .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-acrylic .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-acrylic .tab-buttons__link.is_active svg.icon, .theme-acrylic .tab-buttons__link:hover svg.icon {
+.theme-acrylic .gantt-table__expander:hover .gantt-table__collapsed-icon svg.icon, .theme-acrylic .gantt-table__header.-left:hover .gantt-table__collapsed-icon svg.icon, .theme-acrylic .multiple-issues-header__back:hover svg.icon, .theme-acrylic .tab-buttons__link.is_active svg.icon, .theme-acrylic .tab-buttons__link:hover svg.icon {
   fill: #1f2e4f
 }
 
@@ -9017,6 +9166,10 @@ body.theme-acrylic .project-nav__back {
   border-left-color: #2b406c
 }
 
+.theme-acrylic .multiple-issues-header {
+  background-color: #ebf2fa
+}
+
 .theme-acrylic .multiple-issue-toolbar__edit-btn:hover .multiple-issue-toolbar__edit-btn-badge {
   color: #fff;
   background-color: #1f2e4f
@@ -9029,6 +9182,149 @@ body.theme-acrylic .project-nav__back {
 .theme-acrylic .icon-multiple-issues-checked::after {
   border-bottom-color: #1f2e4f;
   border-left-color: #1f2e4f
+}
+
+@media print {
+  .theme-aqua .input-radio:checked + label::after {
+    border-color: #00759b
+  }
+  .theme-aqua .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-aqua .input-checkbox:checked + label::after {
+    border-bottom-color: #00759b;
+    border-left-color: #00759b
+  }
+  .theme-azuki .input-radio:checked + label::after {
+    border-color: #960920
+  }
+  .theme-azuki .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-azuki .input-checkbox:checked + label::after {
+    border-bottom-color: #960920;
+    border-left-color: #960920
+  }
+  .theme-black .input-radio:checked + label::after {
+    border-color: #00836b
+  }
+  .theme-black .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-black .input-checkbox:checked + label::after {
+    border-bottom-color: #00836b;
+    border-left-color: #00836b
+  }
+  .theme-gray .input-radio:checked + label::after {
+    border-color: #00836b
+  }
+  .theme-gray .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-gray .input-checkbox:checked + label::after {
+    border-bottom-color: #00836b;
+    border-left-color: #00836b
+  }
+  .theme-orange .input-radio:checked + label::after {
+    border-color: #c14524
+  }
+  .theme-orange .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-orange .input-checkbox:checked + label::after {
+    border-bottom-color: #c14524;
+    border-left-color: #c14524
+  }
+  .theme-pink .input-radio:checked + label::after {
+    border-color: #ca2a4e
+  }
+  .theme-pink .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-pink .input-checkbox:checked + label::after {
+    border-bottom-color: #ca2a4e;
+    border-left-color: #ca2a4e
+  }
+  .theme-purple .input-radio:checked + label::after {
+    border-color: #764797
+  }
+  .theme-purple .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-purple .input-checkbox:checked + label::after {
+    border-bottom-color: #764797;
+    border-left-color: #764797
+  }
+  .theme-sakura .input-radio:checked + label::after {
+    border-color: #d6393d
+  }
+  .theme-sakura .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-sakura .input-checkbox:checked + label::after {
+    border-bottom-color: #d6393d;
+    border-left-color: #d6393d
+  }
+  .theme-ultramarine .input-radio:checked + label::after {
+    border-color: #113993
+  }
+  .theme-ultramarine .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-ultramarine .input-checkbox:checked + label::after {
+    border-bottom-color: #113993;
+    border-left-color: #113993
+  }
+  .theme-army .input-radio:checked + label::after {
+    border-color: #00836b
+  }
+  .theme-army .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-army .input-checkbox:checked + label::after {
+    border-bottom-color: #00836b;
+    border-left-color: #00836b
+  }
+  .theme-ethnic .input-radio:checked + label::after {
+    border-color: #821323
+  }
+  .theme-ethnic .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-ethnic .input-checkbox:checked + label::after {
+    border-bottom-color: #821323;
+    border-left-color: #821323
+  }
+  .theme-leopard .input-radio:checked + label::after {
+    border-color: #8a300f
+  }
+  .theme-leopard .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-leopard .input-checkbox:checked + label::after {
+    border-bottom-color: #8a300f;
+    border-left-color: #8a300f
+  }
+  .theme-pink-leopard .input-radio:checked + label::after {
+    border-color: #ca2a4e
+  }
+  .theme-pink-leopard .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-pink-leopard .input-checkbox:checked + label::after {
+    border-bottom-color: #ca2a4e;
+    border-left-color: #ca2a4e
+  }
+  .theme-acrylic .input-radio:checked + label::after {
+    border-color: #113993
+  }
+  .theme-acrylic .input-checkbox:checked + label::before {
+    background-color: #fff
+  }
+  .theme-acrylic .input-checkbox:checked + label::after {
+    border-bottom-color: #113993;
+    border-left-color: #113993
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), only screen and (min-resolution: 1.5dppx) {

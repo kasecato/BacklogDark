@@ -1,0 +1,395 @@
+@import url(//fonts.googleapis.com/css?family=Cabin:400,700);
+
+#globalnav:after {
+  background: 0 0
+}
+
+#hero {
+  width: 100%;
+  background: #8abe00 url(../img/home/bg_hero_ja.png) no-repeat center top
+}
+
+#hero .Group {
+  position: relative;
+  width: 960px;
+  min-height: 448px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 20px
+}
+
+#hero .Group:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 53px;
+  content: '';
+  background: url(../img/home/bg_hero_balloon.png) no-repeat left top
+}
+
+#hero .Group hgroup {
+  color: #fff
+}
+
+#hero .Group hgroup h1 {
+  font-size: 43px;
+  line-height: 1.1;
+  margin-bottom: 12px
+}
+
+#hero .Group .Read, #hero .Group hgroup h1, #hero .Group hgroup h2 {
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(77, 126, 0, .7)
+}
+
+#hero .Group hgroup h2 {
+  padding: 0;
+  font-size: 1.375rem;
+  margin-bottom: 12px
+}
+
+.ie8 #hero .Group .Register .Register-btn, .ie8 #hero .Group hgroup h2 {
+  font-size: 22px
+}
+
+#hero .Group .Read {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  color: #fff
+}
+
+.ie8 #hero .Group .Read, .ie8 #hero .Group .Register p {
+  font-size: 16px
+}
+
+#hero .Group .Register {
+  text-align: center
+}
+
+#hero .Group .Register .Register-btn {
+  font-size: 1.375rem;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  min-width: 245px;
+  margin-bottom: 14px;
+  padding: 15px 35px 15px 40px;
+  color: #fff;
+  border-radius: 30px;
+  background-image: linear-gradient(#00b9fb, #06c 100%);
+  box-shadow: 0 0 0 5px rgba(51, 51, 51, .2), inset 0 -1px 0 0 rgba(51, 51, 51, .2), inset 0 1px 0 0 #00b9fb, inset 0 2px 0 0 rgba(255, 255, 255, .2);
+  -ms-box-shadow: 0 0 0 5px rgba(51, 51, 51, .2), inset 0 -1px 0 0 rgba(51, 51, 51, .2), inset 0 1px 0 0 #00b9fb, inset 0 2px 0 0 rgba(255, 255, 255, .2);
+  -o-box-shadow: 0 0 0 5px rgba(51, 51, 51, .2), inset 0 -1px 0 0 rgba(51, 51, 51, .2), inset 0 1px 0 0 #00b9fb, inset 0 2px 0 0 rgba(255, 255, 255, .2)
+}
+
+.ie6 #hero .Group .Register .Register-btn, .ie7 #hero .Group .Register .Register-btn, .ie8 #hero .Group .Register .Register-btn, .ie9 #hero .Group .Register .Register-btn {
+  border: 1px solid #0a5dae;
+  background: #0260c1 url(../img/home/ie/bg_registerBtn.png) repeat-x 0 0
+}
+
+#hero .Group .Register .Register-btn span {
+  display: inline;
+  padding-right: 27px;
+  background: url(../img/home/btn_register_arrow.png) no-repeat right center;
+  text-shadow: 0 1px 0 #025cb9
+}
+
+#hero .Group .Register .Register-btn:hover {
+  text-decoration: none;
+  background-image: linear-gradient(#00d3fd, #0087e1 100%)
+}
+
+.ie6 #hero .Group .Register .Register-btn:hover, .ie7 #hero .Group .Register .Register-btn:hover, .ie8 #hero .Group .Register .Register-btn:hover, .ie9 #hero .Group .Register .Register-btn:hover {
+  border: 1px solid #0a7ecf;
+  background: #0a7ecf url(../img/home/ie/bg_registerBtn.png) repeat-x 0 -70px
+}
+
+#hero .Group .Register p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(77, 126, 0, .7)
+}
+
+#hero .Group .Promo {
+  min-height: 137px;
+  margin-bottom: 20px;
+  text-align: center
+}
+
+#hero .Group .Promo .Item {
+  display: inline-block;
+  margin: 0 10px .4em;
+  padding-bottom: .4em;
+  -webkit-animation: sharpen 1s linear backwards;
+  -moz-animation: sharpen .8s linear backwards;
+  color: #fff
+}
+
+.ie6 #hero .Group .Promo .Item, .ie6 #hero .Group .Promo .Item:hover {
+  border-bottom: 0
+}
+
+.ie6 #hero .Group .Promo .Item, .ie7 #hero .Group .Promo .Item {
+  display: inline;
+  zoom: 1;
+  width: 110px
+}
+
+#hero .Group .Promo .Item .Icon {
+  width: 105px;
+  height: 120px;
+  margin: 0 auto
+}
+
+#hero .Group .Promo .Item:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s
+}
+
+#hero .Group .Promo .Item:nth-child(2) {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s
+}
+
+#hero .Group .Promo .Item:nth-child(3) {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s
+}
+
+#hero .Group .Promo .Item:nth-child(4) {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s
+}
+
+#hero .Group .Promo .Item:nth-child(5) {
+  -webkit-animation-delay: .4s;
+  -moz-animation-delay: .4s
+}
+
+#hero .Group .Promo .Item:nth-child(6) {
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s
+}
+
+#hero .Group .Promo .Item:hover {
+  text-decoration: none
+}
+
+#hero .Group .Promo .Item .Ttl {
+  font-size: .75rem;
+  font-weight: 700
+}
+
+.ie8 #hero .Group .Promo .Item .Ttl {
+  font-size: 12px
+}
+
+.ie6 #hero .Group .Promo .Item .Ttl, .ie7 #hero .Group .Promo .Item .Ttl {
+  white-space: nowrap
+}
+
+#component {
+  padding: 20px 0 60px
+}
+
+#component .Group {
+  width: 960px;
+  margin: 0 auto
+}
+
+#component .Group:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: ''
+}
+
+.ie6 #component .Group, .ie7 #component .Group, .ie8 #component .Group {
+  zoom: 1
+}
+
+#component .Group .Column {
+  float: left;
+  width: 280px;
+  margin-bottom: 15px;
+  margin-left: 55px;
+  text-align: center;
+  color: #333
+}
+
+.ie6 #component .Group .Column, .ie7 #component .Group .Column {
+  display: inline;
+  zoom: 1
+}
+
+.ie6 #component .Group .Column {
+  width: 270px;
+  margin-left: 25px
+}
+
+#component .Group .Column img {
+  transition: opacity .5s linear 0;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  -ms-filter: 'alpha(opacity=70)'
+}
+
+#component .Group .Column:first-child {
+  margin-left: 0
+}
+
+#component .Group .Column:hover img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-filter: 'alpha(opacity=100)'
+}
+
+#component .Group .Column h1 {
+  font-size: 1.125rem;
+  margin: 5px 0 12px
+}
+
+.ie8 #component .Group .Column h1 {
+  font-size: 18px
+}
+
+#component .Group .Column p {
+  font-size: .875rem;
+  line-height: 1.5;
+  text-align: left
+}
+
+.ie8 #component .Group .Column p {
+  font-size: 14px
+}
+
+#component .Tour_link {
+  margin-top: 10px;
+  text-align: center
+}
+
+#component .Tour_link_btn {
+  font-size: .9375rem;
+  display: inline-block;
+  min-width: 100px;
+  padding: 7px 50px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  background: #88cdee
+}
+
+#component .Tour_link_btn span {
+  font-weight: 700;
+  padding-right: 14px;
+  background: url(../img/tour/ico_paging_next.png) no-repeat right center
+}
+
+#component .Tour_link_btn:hover {
+  background: #9ed6f1
+}
+
+#clients .Group {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0 75px;
+  border-top: 1px solid #b0b0b0
+}
+
+#clients h1 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #72ac00
+}
+
+.ie8 #clients h1 {
+  font-size: 24px
+}
+
+#clients .Clients-logos {
+  padding: 0;
+  text-align: center
+}
+
+#clients .Clients-logos a, #clients .Clients-logos span {
+  display: inline-block;
+  margin: 0 20px 5px
+}
+
+#clients .Clients-logos a img, #clients .Clients-logos span img {
+  vertical-align: middle
+}
+
+@media screen and (max-width: 960px) {
+  #main {
+    margin: 0
+  }
+  #main .Group {
+    width: auto;
+    margin: 0 10px
+  }
+  #main #hero .Promo .Item {
+    margin: 0 3px 2em
+  }
+  #main #component .Group {
+    width: auto;
+    margin: 0 20px;
+    text-align: center
+  }
+  #main #component .Group .Column {
+    display: inline-block;
+    float: none;
+    width: 220px;
+    margin-right: 30px;
+    margin-bottom: 1em;
+    margin-left: 0
+  }
+  #main #component .Group .Column:last-child {
+    margin-right: 0
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #main #hero, #main #hero .Group:after {
+    background-image: none
+  }
+  #main #hero .Group {
+    padding-top: 20px
+  }
+  #main #hero .Group hgroup h1 {
+    font-size: 1.875rem
+  }
+  .ie8 #main #hero .Group hgroup h1 {
+    font-size: 30px
+  }
+  #main #hero .Group hgroup h2 {
+    font-size: 1.1875rem
+  }
+  .ie8 #main #hero .Group hgroup h2 {
+    font-size: 19px
+  }
+  #main #hero .Group .Read, #main #hero .Group .Register p {
+    font-size: .875rem
+  }
+  .ie8 #main #hero .Group .Read, .ie8 #main #hero .Group .Register p {
+    font-size: 14px
+  }
+  #main #component .Group .Column {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0 auto 2em
+  }
+  #main #component .Group .Column:first-child {
+    margin-left: auto
+  }
+  #main #component .Group .Column:last-child {
+    margin-right: auto
+  }
+}
