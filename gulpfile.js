@@ -3,6 +3,7 @@ const postcss = require('gulp-postcss');
 const concat = require('gulp-concat');
 const headerfooter = require('gulp-headerfooter');
 const stylishDarkThemeGene = require('postcss-stylish-dark-theme-gene');
+var cleanCSS = require('gulp-clean-css');
 
 // Src
 const css_src_header = './src/css/backlog-dark-header.css';
@@ -25,6 +26,10 @@ gulp.task('css', function () {
         .pipe(concat(css_dst_file))
         .pipe(headerfooter.header(css_src_header))
         .pipe(headerfooter.footer(css_src_footer))
+        .pipe(cleanCSS({debug: true}, function(details) {
+            console.log(details.name + ': ' + details.stats.originalSize);
+            console.log(details.name + ': ' + details.stats.minifiedSize);
+        }))
         .pipe(gulp.dest(css_dst_dir));
 });
 

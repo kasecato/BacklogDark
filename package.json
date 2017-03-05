@@ -9,7 +9,8 @@
     "gulp-postcss": "^6.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-headerfooter": "^1.0.3",
-    "postcss-stylish-dark-theme-gene": "^0.0.3"
+    "postcss-stylish-dark-theme-gene": "^0.0.3",
+    "gulp-clean-css": "^3.0.3"
   },
   "scripts": {
     "gulp": "gulp"
